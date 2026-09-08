@@ -32,7 +32,7 @@ class PDF:
     def __init__(self):
         self.y = 812
         self.page_w = 595
-        self.margin = 34
+        self.margin = 40  # place pour la barre latérale
         self.content = []
         self._color = TEXT
 
@@ -146,11 +146,14 @@ def main():
     right = p.page_w - m
 
     # ── En-tête ──
-    # Bandeau violet léger
-    p.content.append(f"{rgb(CHIP_BG)} rg")
-    p.content.append(f"0 {p.y - 52:.1f} 595 70 re f")
+    # Bandeau violet plus marqué
+    p.content.append(f"{rgb((0.85, 0.88, 1.0))} rg")
+    p.content.append(f"0 {p.y - 58:.1f} 595 78 re f")
+    # Barre latérale accent
+    p.content.append(f"{rgb(ACCENT)} rg")
+    p.content.append(f"0 0 8 842 re f")
 
-    p.text(m, 20, "Wadjoud PHILIPPE", bold=True, color=TEXT)
+    p.text(m, 20, "Wadjoud PHILIPPE", bold=True, color=ACCENT_DARK)
     p.y -= 15
     p.text(m, 10.5, "Élève Ingénieur — Développeur Full Stack / IA", bold=True, color=ACCENT)
     p.y -= 12
