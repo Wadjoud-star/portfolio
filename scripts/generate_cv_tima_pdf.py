@@ -105,15 +105,15 @@ class PDF:
     def thin_rule(self):
         self.rule(color=RULE, thickness=0.5)
 
-    def space(self, n=5):
+    def space(self, n=7):
         self.y -= n
 
     def section(self, title):
-        self.space(4)
+        self.space(7)
         self.text(self.margin, 9.5, title.upper(), bold=True, color=ACCENT)
-        self.y -= 3
+        self.y -= 4
         self.thin_rule()
-        self.space(1)
+        self.space(3)
 
     def chip(self, label, x, y):
         pad_x = 6
@@ -290,60 +290,68 @@ def main():
     for title, date, bullets, stack in projects:
         p.text(m, 8.5, title, bold=True, color=TEXT)
         p.text_right(7.5, date, bold=True, color=LIGHT)
-        p.y -= 10
+        p.y -= 11
         for b in bullets:
-            p.bullet(b)
+            p.bullet(b, size=7.6, leading=10.2)
         p.text(m, 7.2, stack, bold=True, color=ACCENT)
-        p.y -= 9
+        p.y -= 12
 
     # ── Formation ──
     p.section("Formation")
     p.text(m, 8.2, "Diplome d'Ingenieur - Dev Web Full Stack", bold=True, color=TEXT)
     p.text_right(7.5, "2024 - 2027", bold=True, color=LIGHT)
-    p.y -= 9
+    p.y -= 10
     p.text(m, 7.6, "ESIGELEC - Rouen", bold=True, color=ACCENT)
-    p.y -= 9
+    p.y -= 10
     p.multilines(
         7.4,
         "Java, Spring, Angular, TypeScript, React, Docker, API REST, Agile/Scrum",
-        leading=9.2,
+        leading=9.6,
         color=MUTED,
     )
+    p.space(3)
     p.text(m, 8.2, "Cycle preparatoire integre", bold=True, color=TEXT)
     p.text_right(7.5, "2022 - 2024", bold=True, color=LIGHT)
-    p.y -= 9
-    p.text(m, 7.6, "ESIGELEC - Cotonou, Benin", bold=True, color=ACCENT)
     p.y -= 10
+    p.text(m, 7.6, "ESIGELEC - Cotonou, Benin", bold=True, color=ACCENT)
+    p.y -= 12
 
     # ── Expérience ──
     p.section("Experience")
     p.text(m, 8.2, "Stagiaire Informatique", bold=True, color=TEXT)
     p.text_right(7.5, "Juil. - Aout 2023", bold=True, color=LIGHT)
-    p.y -= 9
+    p.y -= 10
     p.text(m, 7.6, "PROMOPHARMA - Benin", bold=True, color=ACCENT)
-    p.y -= 9
-    p.bullet("Recueil des besoins utilisateurs et diagnostic d'incidents techniques")
-    p.bullet("Maintenance du parc informatique et des serveurs de l'entreprise")
+    p.y -= 10
+    p.bullet("Recueil des besoins utilisateurs et diagnostic d'incidents techniques", leading=10.2)
+    p.bullet("Maintenance du parc informatique et des serveurs de l'entreprise", leading=10.2)
 
-    # ── Footer ──
-    p.section("Langues | Qualites | Centres d'interet")
+    # ── Bas : contenu utile, sans tags ──
+    p.section("Langues, disponibilite et centres d'interet")
+    p.text(m, 8, "Langues", bold=True, color=TEXT)
+    p.y -= 10
     p.multilines(
-        7.4,
-        "Francais - langue maternelle  |  Anglais - B2 (docs techniques, specs)",
-        leading=9.2,
+        7.5,
+        "Francais : langue maternelle  |  Anglais : B2 (documentation technique, specs, lecture de code et docs OpenAI/Spring)",
+        leading=9.8,
         color=MUTED,
     )
-    p.space(2)
-    chips = ["Autonome", "Force de proposition", "Esprit d'equipe", "Agile", "IA & LLM"]
-    x = m
-    y_chip = p.y - 1
-    for label in chips:
-        x += p.chip(label, x, y_chip)
-    p.y = y_chip - 13
+    p.space(3)
+    p.text(m, 8, "Disponibilite & mobilite", bold=True, color=TEXT)
+    p.y -= 10
     p.multilines(
-        7.4,
-        "Produits SaaS & applications metier  |  Open source / contributions GitHub",
-        leading=9.2,
+        7.5,
+        "Stage de fin d'etudes 6 mois a partir de fevrier 2027  |  Mobilite Paris  |  Ouvert a un projet interne produit / IA (TIMA, agents, full stack)",
+        leading=9.8,
+        color=MUTED,
+    )
+    p.space(3)
+    p.text(m, 8, "Centres d'interet techniques", bold=True, color=TEXT)
+    p.y -= 10
+    p.multilines(
+        7.5,
+        "IA appliquee aux produits metier (agents, RAG, OpenAI)  |  Conception de SaaS et apps multi-roles  |  Veille web (React, Spring, Docker)  |  Projets open source sur GitHub",
+        leading=9.8,
         color=MUTED,
     )
 
