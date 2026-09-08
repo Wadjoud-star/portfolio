@@ -3,199 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV — Wadjoud PHILIPPE — Stage TIMA Takima</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <meta name="color-scheme" content="light only">
-  <link rel="stylesheet" href="css/cv.css?v=6">
+  <title>CV — Wadjoud PHILIPPE — TIMA</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      background: #111827;
+      color: #f9fafb;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    .box {
+      width: min(420px, 92vw);
+      background: #fff;
+      color: #111827;
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,.35);
+    }
+    h1 { font-size: 1.25rem; margin: 0 0 .5rem; }
+    p { margin: 0 0 1.25rem; color: #4b5563; line-height: 1.45; font-size: .95rem; }
+    a.btn {
+      display: inline-block;
+      background: #3730a3;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      padding: .85rem 1.25rem;
+      border-radius: 10px;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #6b7280;
+      font-size: .9rem;
+    }
+  </style>
 </head>
 <body>
-
-  <div class="cv-toolbar">
-    <a href="index.html" class="cv-back">← Retour au portfolio</a>
-    <button type="button" class="cv-download" onclick="window.print()">Enregistrer en PDF</button>
-    <span class="cv-print-tip">Ouvre cette page dans Chrome/Safari → Enregistrer en PDF · Marges : Aucune · A4</span>
+  <div class="box">
+    <h1>CV TIMA — Takima</h1>
+    <p>Télécharge le PDF directement (version stable, lisible, 1 page A4).</p>
+    <a class="btn" href="assets/cv-tima.pdf" download="CV-Wadjoud-PHILIPPE-TIMA.pdf">Télécharger le PDF</a>
+    <br>
+    <a class="back" href="index.html">← Retour au portfolio</a>
   </div>
-
-  <article class="cv-page">
-
-    <header class="cv-header">
-      <div>
-        <h1 class="cv-name">Wadjoud PHILIPPE</h1>
-        <p class="cv-title">Élève Ingénieur — Développeur Full Stack / IA</p>
-        <p class="cv-tagline">Stage de fin d'études (fév. 2027) · Mobilité Paris · ESIGELEC Rouen</p>
-      </div>
-      <address class="cv-contact">
-        <a href="mailto:wadjoud.philippe@groupe-esigelec.org">wadjoud.philippe@groupe-esigelec.org</a><br>
-        07 58 03 02 39<br>
-        <a href="https://wadjoud-star.github.io/portfolio/">wadjoud-star.github.io/portfolio</a><br>
-        <a href="https://linkedin.com/in/wadjoud-philippe">linkedin.com/in/wadjoud-philippe</a><br>
-        <a href="https://github.com/Wadjoud-star">github.com/Wadjoud-star</a>
-      </address>
-    </header>
-
-    <div class="cv-body">
-
-    <section class="cv-section">
-      <h2>Profil</h2>
-      <p class="cv-profile">
-        Élève ingénieur bac+5 (ESIGELEC, développement web full stack), je conçois des applications web
-        de bout en bout : analyse métier, développement Java / Spring &amp; React, API REST, Docker et déploiement.
-        Intéressé par l'IA appliquée aux processus métier (OpenAI, génération de contenu, automatisation),
-        les plateformes multi-rôles (droits, admin, workflows) et les produits en production.
-        Recherche un stage de fin d'études de 6 mois à partir de février 2027 — profil autonome, Agile/Scrum,
-        force de proposition, à l'aise en équipe produit.
-      </p>
-    </section>
-
-    <section class="cv-section">
-      <h2>Compétences techniques</h2>
-      <div class="cv-skills">
-        <div class="skill-group">
-          <h3>Backend</h3>
-          <p>Java (JEE, Spring Boot), Kotlin (bases), Node.js, Express, PHP (MVC), C# (ASP.NET), Python — API REST, JWT, Swagger</p>
-        </div>
-        <div class="skill-group">
-          <h3>Frontend</h3>
-          <p>React, Next.js, Angular, TypeScript, JavaScript, HTML5, CSS3, Tailwind, Bootstrap — UX, dashboards, interfaces multi-rôles</p>
-        </div>
-        <div class="skill-group">
-          <h3>IA &amp; Données</h3>
-          <p>OpenAI (API), LangChain (notions), génération de contenu IA, PostgreSQL, MySQL, Prisma, Oracle SQL — modélisation MCD/MLD</p>
-        </div>
-        <div class="skill-group">
-          <h3>DevOps &amp; Méthodes</h3>
-          <p>Docker, Kubernetes (notions), Git, CI/CD (GitLab), Linux, Agile/Scrum, sécurité (rôles &amp; droits), documentation</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="cv-section">
-      <h2>Projets significatifs</h2>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Smart CMS IA — Génération de contenu &amp; OpenAI</h3>
-          <span class="cv-project-date">2025</span>
-        </div>
-        <p>
-          CMS intelligent : génération IA (blog, LinkedIn, Twitter/X, illustration) via OpenAI, jobs asynchrones,
-          éditeur riche, score SEO, auth et historique de projets. Automatisation de processus éditoriaux de bout en bout.
-        </p>
-        <p class="cv-stack">Next.js · React · OpenAI · Supabase · Stripe · TipTap · TypeScript</p>
-      </div>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Beniphone — Marketplace multi-rôles (processus &amp; admin)</h3>
-          <span class="cv-project-date">2025</span>
-        </div>
-        <p>
-          Plateforme full-stack : catalogue, KYC vendeur, messagerie/négociation, transactions tracées,
-          modération et tableau de bord admin. Gestion des rôles (acheteur, vendeur, admin) et workflows métier.
-        </p>
-        <p class="cv-stack">React · Node.js · Express · Prisma · MySQL · Tailwind · Agile</p>
-      </div>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Factis — Mini-SaaS (droits, abonnements, production)</h3>
-          <span class="cv-project-date">2025</span>
-        </div>
-        <p>
-          SaaS de facturation France/Bénin : onboarding, clients, factures PDF, analytics, abonnement Stripe,
-          rôles et conformité légale. Conception produit, API et déploiement (Vercel / PostgreSQL).
-        </p>
-        <p class="cv-stack">Next.js · TypeScript · Prisma · PostgreSQL · Stripe · Docker (local)</p>
-      </div>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Club Sport — Application Java multi-rôles</h3>
-          <span class="cv-project-date">2025</span>
-        </div>
-        <p>
-          App JEE : recherche, cartographie, statistiques de licences, exports CSV, espaces élu / club.
-          Conteneurisation Docker et déploiement Tomcat.
-        </p>
-        <p class="cv-stack">Java · JSP/Servlets · MySQL · Docker · Tomcat</p>
-      </div>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Mon Déménagement — Plateforme web en production</h3>
-          <span class="cv-project-date">2025 · En ligne</span>
-        </div>
-        <p>
-          Mise en relation clients / déménageurs : annonces, offres, messagerie, évaluations, espace admin.
-          Cycle complet analyse → MVC → mise en production.
-        </p>
-        <p class="cv-stack">PHP · MySQL · MVC · Bootstrap · JavaScript · Git</p>
-      </div>
-    </section>
-
-    <div class="cv-bottom">
-      <section class="cv-section">
-        <h2>Formation</h2>
-        <div class="cv-entry">
-          <div class="cv-entry-head">
-            <h3>Diplôme d'Ingénieur — Dev Web Full Stack</h3>
-            <span class="cv-entry-date">2024 – 2027</span>
-          </div>
-          <p class="cv-entry-place">ESIGELEC · Rouen</p>
-          <p>Java, Spring, Angular, TypeScript, React, Docker, API REST, Agile/Scrum</p>
-        </div>
-        <div class="cv-entry">
-          <div class="cv-entry-head">
-            <h3>Cycle préparatoire intégré</h3>
-            <span class="cv-entry-date">2022 – 2024</span>
-          </div>
-          <p class="cv-entry-place">ESIGELEC · Cotonou, Bénin</p>
-        </div>
-      </section>
-
-      <section class="cv-section">
-        <h2>Expérience</h2>
-        <div class="cv-entry">
-          <div class="cv-entry-head">
-            <h3>Stagiaire Informatique</h3>
-            <span class="cv-entry-date">Juil. – Août 2023</span>
-          </div>
-          <p class="cv-entry-place">PROMOPHARMA · Bénin</p>
-          <p>Recueil des besoins, diagnostic d'incidents, maintenance parc informatique et serveurs.</p>
-        </div>
-      </section>
-    </div>
-
-    <section class="cv-section cv-footer">
-      <div class="cv-footer-grid">
-        <div>
-          <h2>Langues</h2>
-          <p class="cv-lang"><strong>Français</strong> — langue maternelle</p>
-          <p class="cv-lang"><strong>Anglais</strong> — B2 (docs techniques, specs)</p>
-        </div>
-        <div>
-          <h2>Qualités</h2>
-          <div class="cv-tags">
-            <span>Autonome</span>
-            <span>Force de proposition</span>
-            <span>Esprit d'équipe</span>
-            <span>Agile</span>
-          </div>
-        </div>
-        <div>
-          <h2>Centres d'intérêt</h2>
-          <p class="cv-line">IA appliquée &amp; agents / LLM</p>
-          <p class="cv-line">Produits SaaS &amp; apps métier</p>
-          <p class="cv-line">Open source · GitHub</p>
-        </div>
-      </div>
-    </section>
-
-    </div><!-- .cv-body -->
-
-  </article>
-
+  <script>
+    // Téléchargement auto si on arrive depuis le bouton CV
+    if (location.search.includes('auto=1')) {
+      const a = document.createElement('a');
+      a.href = 'assets/cv-tima.pdf';
+      a.download = 'CV-Wadjoud-PHILIPPE-TIMA.pdf';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+  </script>
 </body>
 </html>

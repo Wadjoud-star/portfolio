@@ -4,4 +4,8 @@
 .env.*
 offre/
 offres/
+.venv/
+.pdfdeps/
+# Keep generated CVs public; ignore other PDFs
 *.pdf
+!assets/cv-*.pdf
