@@ -2,3 +2,6 @@
 *.mov
 .env
 .env.*
+offre/
+offres/
+*.pdf

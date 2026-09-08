@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV — Wadjoud PHILIPPE</title>
+  <title>CV — Wadjoud PHILIPPE — Stage TIMA Takima</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/cv.css?v=4">
+  <link rel="stylesheet" href="css/cv.css?v=5">
 </head>
 <body>
 
   <div class="cv-toolbar">
     <a href="index.html" class="cv-back">← Retour au portfolio</a>
     <button type="button" class="cv-download" onclick="window.print()">Enregistrer en PDF</button>
-    <span class="cv-print-tip">PDF → Marges : Aucune · Format : A4</span>
+    <span class="cv-print-tip">PDF → Marges : Aucune · Format : A4 · Version TIMA (Takima)</span>
   </div>
 
   <article class="cv-page">
@@ -22,12 +22,13 @@
     <header class="cv-header">
       <div>
         <h1 class="cv-name">Wadjoud PHILIPPE</h1>
-        <p class="cv-title">Élève Ingénieur — Développeur Full Stack</p>
-        <p class="cv-tagline">Alternance & missions freelance · Rouen (mobilité Tours Nord)</p>
+        <p class="cv-title">Élève Ingénieur — Développeur Full Stack / IA</p>
+        <p class="cv-tagline">Stage de fin d'études (fév. 2027) · Mobilité Paris · ESIGELEC Rouen</p>
       </div>
       <address class="cv-contact">
         <a href="mailto:wadjoud.philippe@groupe-esigelec.org">wadjoud.philippe@groupe-esigelec.org</a><br>
         07 58 03 02 39<br>
+        <a href="https://wadjoud-star.github.io/portfolio/">wadjoud-star.github.io/portfolio</a><br>
         <a href="https://linkedin.com/in/wadjoud-philippe">linkedin.com/in/wadjoud-philippe</a><br>
         <a href="https://github.com/Wadjoud-star">github.com/Wadjoud-star</a>
       </address>
@@ -38,11 +39,12 @@
     <section class="cv-section">
       <h2>Profil</h2>
       <p class="cv-profile">
-        Élève ingénieur à l'ESIGELEC Rouen (bac+5, spécialité développement web full stack), je conçois et déploie
-        des applications web complètes : analyse des besoins, conception (MCD/UML), développement, tests et mise en production.
-        Polyvalent du backend au frontend, j'interviens sur PHP, Java, React et Next.js à travers des projets concrets :
-        SaaS, marketplaces, CMS intelligents et plateformes multi-rôles. Profil orienté alternance et missions freelance —
-        autonome, curieux, force de proposition, à l'aise en équipe comme en gestion de projet de bout en bout.
+        Élève ingénieur bac+5 (ESIGELEC, développement web full stack), je conçois des applications web
+        de bout en bout : analyse métier, développement Java / Spring &amp; React, API REST, Docker et déploiement.
+        Intéressé par l'IA appliquée aux processus métier (OpenAI, génération de contenu, automatisation),
+        les plateformes multi-rôles (droits, admin, workflows) et les produits en production.
+        Recherche un stage de fin d'études de 6 mois à partir de février 2027 — profil autonome, Agile/Scrum,
+        force de proposition, à l'aise en équipe produit.
       </p>
     </section>
 
@@ -50,20 +52,20 @@
       <h2>Compétences techniques</h2>
       <div class="cv-skills">
         <div class="skill-group">
-          <h3>Backend & Web</h3>
-          <p>PHP (architecture MVC), Java (JEE, Spring Boot), C# (ASP.NET), Python, Node.js, Express — développement et maintenance d'applications</p>
+          <h3>Backend</h3>
+          <p>Java (JEE, Spring Boot), Kotlin (bases), Node.js, Express, PHP (MVC), C# (ASP.NET), Python — API REST, JWT, Swagger</p>
         </div>
         <div class="skill-group">
           <h3>Frontend</h3>
-          <p>HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Angular, Tailwind, Bootstrap — intégration responsive et performance</p>
+          <p>React, Next.js, Angular, TypeScript, JavaScript, HTML5, CSS3, Tailwind, Bootstrap — UX, dashboards, interfaces multi-rôles</p>
         </div>
         <div class="skill-group">
-          <h3>API & Bases de données</h3>
-          <p>REST, Swagger/OpenAPI, JWT, Postman, MySQL, PostgreSQL, Prisma, Oracle SQL — modélisation MCD/MLD, requêtes optimisées</p>
+          <h3>IA &amp; Données</h3>
+          <p>OpenAI (API), LangChain (notions), génération de contenu IA, PostgreSQL, MySQL, Prisma, Oracle SQL — modélisation MCD/MLD</p>
         </div>
         <div class="skill-group">
-          <h3>DevOps, Outils & Méthodes</h3>
-          <p>Git, Docker, CI/CD (GitLab), Linux, Stripe, Supabase, WordPress, SEO technique, Core Web Vitals, Agile/Scrum, documentation</p>
+          <h3>DevOps &amp; Méthodes</h3>
+          <p>Docker, Kubernetes (notions), Git, CI/CD (GitLab), Linux, Agile/Scrum, sécurité (rôles &amp; droits), documentation</p>
         </div>
       </div>
     </section>
@@ -73,63 +75,62 @@
 
       <div class="cv-project">
         <div class="cv-project-head">
-          <h3>Factis — Mini-SaaS de facturation</h3>
+          <h3>Smart CMS IA — Génération de contenu &amp; OpenAI</h3>
           <span class="cv-project-date">2025</span>
         </div>
         <p>
-          Facturation et gestion financière pour freelances (France : TVA, SIRET · Bénin : FCFA, IFU).
-          Onboarding légal, clients, factures PDF conformes, numérotation inviolable, dépenses, analytics,
-          abonnement Stripe (Gratuit / Pro) et envoi par email.
+          CMS intelligent : génération IA (blog, LinkedIn, Twitter/X, illustration) via OpenAI, jobs asynchrones,
+          éditeur riche, score SEO, auth et historique de projets. Automatisation de processus éditoriaux de bout en bout.
         </p>
-        <p class="cv-stack">Next.js · TypeScript · Prisma · PostgreSQL · NextAuth · Stripe · Tailwind · Vercel</p>
+        <p class="cv-stack">Next.js · React · OpenAI · Supabase · Stripe · TipTap · TypeScript</p>
       </div>
 
       <div class="cv-project">
         <div class="cv-project-head">
-          <h3>Beniphone — Marketplace Apple (Bénin)</h3>
+          <h3>Beniphone — Marketplace multi-rôles (processus &amp; admin)</h3>
           <span class="cv-project-date">2025</span>
         </div>
         <p>
-          Marketplace full-stack : catalogue produits, vérification KYC vendeur, messagerie avec offres,
-          transactions tracées et dashboard administrateur. Architecture API REST et UI/UX soignée.
+          Plateforme full-stack : catalogue, KYC vendeur, messagerie/négociation, transactions tracées,
+          modération et tableau de bord admin. Gestion des rôles (acheteur, vendeur, admin) et workflows métier.
         </p>
-        <p class="cv-stack">React · Vite · Tailwind · Node.js · Express · MySQL · Prisma</p>
+        <p class="cv-stack">React · Node.js · Express · Prisma · MySQL · Tailwind · Agile</p>
       </div>
 
       <div class="cv-project">
         <div class="cv-project-head">
-          <h3>Smart CMS IA — CMS intelligent</h3>
+          <h3>Factis — Mini-SaaS (droits, abonnements, production)</h3>
           <span class="cv-project-date">2025</span>
         </div>
         <p>
-          Génération de contenu IA (blog, LinkedIn, Twitter/X, illustration) à partir d'un thème ou nom de produit.
-          Éditeur riche TipTap, optimisation SEO, export Markdown/HTML, auth et storage Supabase.
+          SaaS de facturation France/Bénin : onboarding, clients, factures PDF, analytics, abonnement Stripe,
+          rôles et conformité légale. Conception produit, API et déploiement (Vercel / PostgreSQL).
         </p>
-        <p class="cv-stack">Next.js · React · OpenAI · Supabase · Stripe · TipTap · Redis</p>
+        <p class="cv-stack">Next.js · TypeScript · Prisma · PostgreSQL · Stripe · Docker (local)</p>
       </div>
 
       <div class="cv-project">
         <div class="cv-project-head">
-          <h3>Mon Déménagement — Plateforme multi-rôles</h3>
+          <h3>Club Sport — Application Java multi-rôles</h3>
+          <span class="cv-project-date">2025</span>
+        </div>
+        <p>
+          App JEE : recherche, cartographie, statistiques de licences, exports CSV, espaces élu / club.
+          Conteneurisation Docker et déploiement Tomcat.
+        </p>
+        <p class="cv-stack">Java · JSP/Servlets · MySQL · Docker · Tomcat</p>
+      </div>
+
+      <div class="cv-project">
+        <div class="cv-project-head">
+          <h3>Mon Déménagement — Plateforme web en production</h3>
           <span class="cv-project-date">2025 · En ligne</span>
         </div>
         <p>
-          Mise en relation particuliers / déménageurs. Annonces avec photos, propositions de prix, messagerie,
-          évaluations et espace admin. Cycle complet MCD → MVC → déploiement en production.
+          Mise en relation clients / déménageurs : annonces, offres, messagerie, évaluations, espace admin.
+          Cycle complet analyse → MVC → mise en production.
         </p>
-        <p class="cv-stack">PHP · MySQL · Architecture MVC · Bootstrap · JavaScript · Git</p>
-      </div>
-
-      <div class="cv-project">
-        <div class="cv-project-head">
-          <h3>Club Sport — Application JEE</h3>
-          <span class="cv-project-date">2025</span>
-        </div>
-        <p>
-          Centralisation des clubs sportifs français. Application multi-rôles : cartographie Leaflet,
-          statistiques, exports de données et gestion de profils (élus, membres, acteurs).
-        </p>
-        <p class="cv-stack">Java · JSP/Servlets · MySQL · Docker · Tomcat</p>
+        <p class="cv-stack">PHP · MySQL · MVC · Bootstrap · JavaScript · Git</p>
       </div>
     </section>
 
@@ -142,7 +143,7 @@
             <span class="cv-entry-date">2024 – 2027</span>
           </div>
           <p class="cv-entry-place">ESIGELEC · Rouen</p>
-          <p>PHP, Java, C#, Angular, TypeScript, Docker, API REST, WordPress, Agile</p>
+          <p>Java, Spring, Angular, TypeScript, React, Docker, API REST, Agile/Scrum</p>
         </div>
         <div class="cv-entry">
           <div class="cv-entry-head">
@@ -171,7 +172,7 @@
         <div>
           <h2>Langues</h2>
           <p class="cv-lang"><strong>Français</strong> — langue maternelle</p>
-          <p class="cv-lang"><strong>Anglais</strong> — B2 (lecture technique, documentation, specs)</p>
+          <p class="cv-lang"><strong>Anglais</strong> — B2 (docs techniques, specs)</p>
         </div>
         <div>
           <h2>Qualités</h2>
@@ -179,14 +180,14 @@
             <span>Autonome</span>
             <span>Force de proposition</span>
             <span>Esprit d'équipe</span>
-            <span>Rigoureux</span>
+            <span>Agile</span>
           </div>
         </div>
         <div>
           <h2>Centres d'intérêt</h2>
-          <p class="cv-line">Veille technologique & frameworks web émergents</p>
-          <p class="cv-line">Projets personnels SaaS & applications métier</p>
-          <p class="cv-line">Open source · contributions GitHub</p>
+          <p class="cv-line">IA appliquée &amp; agents / LLM</p>
+          <p class="cv-line">Produits SaaS &amp; apps métier</p>
+          <p class="cv-line">Open source · GitHub</p>
         </div>
       </div>
     </section>
