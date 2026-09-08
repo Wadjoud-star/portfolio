@@ -2,80 +2,165 @@
 1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
 2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
 3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>endobj
-4 0 obj<< /Length 5778 >>stream
-BT /F2 18 Tf 36.0 820.0 Td (Wadjoud PHILIPPE) Tj ET
-BT /F2 11 Tf 36.0 804.0 Td (Eleve Ingenieur - Developpeur Full Stack / IA) Tj ET
-BT /F1 9 Tf 36.0 791.0 Td (Stage de fin d'etudes \(fev. 2027\) - Mobilite Paris - ESIGELEC Rouen) Tj ET
-BT /F1 8 Tf 36.0 779.0 Td (wadjoud.philippe@groupe-esigelec.org  |  07 58 03 02 39) Tj ET
-BT /F1 8 Tf 36.0 769.0 Td (https://wadjoud-star.github.io/portfolio/  |  linkedin.com/in/wadjoud-philippe) Tj ET
-BT /F1 8 Tf 36.0 759.0 Td (github.com/Wadjoud-star) Tj ET
-0.22 0.19 0.64 RG 1.2 w 36 751 m 559 751 l S
-BT /F2 10 Tf 36.0 737.0 Td (PROFIL) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 733 m 559 733 l S
-BT /F1 8 Tf 36.0 721.0 Td (Eleve ingenieur bac+5 \(ESIGELEC, developpement web full stack\), je concoois des applications web) Tj ET
-BT /F1 8 Tf 36.0 711.0 Td (de bout en bout : analyse metier, developpement Java / Spring & React, API REST, Docker et) Tj ET
-BT /F1 8 Tf 36.0 701.0 Td (deploiement. Interesse par l'IA appliquee aux processus metier \(OpenAI, generation de contenu,) Tj ET
-BT /F1 8 Tf 36.0 691.0 Td (automatisation\), les plateformes multi-roles \(droits, admin, workflows\) et les produits en) Tj ET
-BT /F1 8 Tf 36.0 681.0 Td (production. Recherche un stage de fin d'etudes de 6 mois a partir de fevrier 2027 - profil) Tj ET
-BT /F1 8 Tf 36.0 671.0 Td (autonome, Agile/Scrum, force de proposition, a l'aise en equipe produit.) Tj ET
-BT /F2 10 Tf 36.0 657.0 Td (COMPETENCES TECHNIQUES) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 653 m 559 653 l S
-BT /F2 9 Tf 36.0 641.0 Td (Backend) Tj ET
-BT /F1 8 Tf 36.0 630.0 Td (Java \(JEE, Spring Boot\), Kotlin \(bases\), Node.js, Express, PHP \(MVC\), C#, Python - API REST, JWT,) Tj ET
-BT /F1 8 Tf 36.0 620.0 Td (Swagger) Tj ET
-BT /F2 9 Tf 36.0 608.0 Td (Frontend) Tj ET
-BT /F1 8 Tf 36.0 597.0 Td (React, Next.js, Angular, TypeScript, JavaScript, HTML5, CSS3, Tailwind, Bootstrap - UX, dashboards,) Tj ET
-BT /F1 8 Tf 36.0 587.0 Td (multi-roles) Tj ET
-BT /F2 9 Tf 36.0 575.0 Td (IA & Donnees) Tj ET
-BT /F1 8 Tf 36.0 564.0 Td (OpenAI \(API\), LangChain \(notions\), generation de contenu IA, PostgreSQL, MySQL, Prisma, Oracle SQL) Tj ET
-BT /F2 9 Tf 36.0 552.0 Td (DevOps & Methodes) Tj ET
-BT /F1 8 Tf 36.0 541.0 Td (Docker, Kubernetes \(notions\), Git, CI/CD \(GitLab\), Linux, Agile/Scrum, securite \(roles & droits\)) Tj ET
-BT /F2 10 Tf 36.0 525.0 Td (PROJETS SIGNIFICATIFS) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 521 m 559 521 l S
-BT /F2 9 Tf 36.0 509.0 Td (Smart CMS IA - Generation de contenu & OpenAI) Tj ET
-BT /F2 8 Tf 543.6 509.0 Td (2025) Tj ET
-BT /F1 8 Tf 36.0 498.0 Td (CMS intelligent : generation IA \(blog, LinkedIn, Twitter/X, illustration\) via OpenAI, jobs) Tj ET
-BT /F1 8 Tf 36.0 488.0 Td (asynchrones, editeur riche, score SEO, auth et historique.) Tj ET
-BT /F2 8 Tf 36.0 478.0 Td (Next.js / React / OpenAI / Supabase / Stripe / TipTap / TypeScript) Tj ET
-BT /F2 9 Tf 36.0 466.0 Td (Beniphone - Marketplace multi-roles \(processus & admin\)) Tj ET
-BT /F2 8 Tf 543.6 466.0 Td (2025) Tj ET
-BT /F1 8 Tf 36.0 455.0 Td (Plateforme full-stack : catalogue, KYC vendeur, messagerie/negociation, transactions, moderation et) Tj ET
-BT /F1 8 Tf 36.0 445.0 Td (dashboard admin. Roles et workflows metier.) Tj ET
-BT /F2 8 Tf 36.0 435.0 Td (React / Node.js / Express / Prisma / MySQL / Tailwind / Agile) Tj ET
-BT /F2 9 Tf 36.0 423.0 Td (Factis - Mini-SaaS \(droits, abonnements, production\)) Tj ET
-BT /F2 8 Tf 543.6 423.0 Td (2025) Tj ET
-BT /F1 8 Tf 36.0 412.0 Td (SaaS de facturation France/Benin : onboarding, clients, factures PDF, analytics, Stripe, roles et) Tj ET
-BT /F1 8 Tf 36.0 402.0 Td (conformite. Produit, API et deploiement.) Tj ET
-BT /F2 8 Tf 36.0 392.0 Td (Next.js / TypeScript / Prisma / PostgreSQL / Stripe / Docker) Tj ET
-BT /F2 9 Tf 36.0 380.0 Td (Club Sport - Application Java multi-roles) Tj ET
-BT /F2 8 Tf 543.6 380.0 Td (2025) Tj ET
-BT /F1 8 Tf 36.0 369.0 Td (App JEE : recherche, cartographie, statistiques, exports CSV, espaces elu/club. Docker et Tomcat.) Tj ET
-BT /F2 8 Tf 36.0 359.0 Td (Java / JSP-Servlets / MySQL / Docker / Tomcat) Tj ET
-BT /F2 9 Tf 36.0 347.0 Td (Mon Demenagement - Plateforme web en production) Tj ET
-BT /F2 8 Tf 543.6 347.0 Td (2025) Tj ET
-BT /F1 8 Tf 36.0 336.0 Td (Mise en relation clients/demenageurs : annonces, offres, messagerie, evaluations, admin. Analyse ->) Tj ET
-BT /F1 8 Tf 36.0 326.0 Td (MVC -> production.) Tj ET
-BT /F2 8 Tf 36.0 316.0 Td (PHP / MySQL / MVC / Bootstrap / JavaScript / Git) Tj ET
-BT /F2 10 Tf 36.0 300.0 Td (FORMATION) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 296 m 559 296 l S
-BT /F2 9 Tf 36.0 284.0 Td (Diplome d'Ingenieur - Dev Web Full Stack) Tj ET
-BT /F2 8 Tf 516.8 284.0 Td (2024 - 2027) Tj ET
-BT /F2 8 Tf 36.0 273.0 Td (ESIGELEC - Rouen) Tj ET
-BT /F1 8 Tf 36.0 263.0 Td (Java, Spring, Angular, TypeScript, React, Docker, API REST, Agile/Scrum) Tj ET
-BT /F2 9 Tf 36.0 253.0 Td (Cycle preparatoire integre) Tj ET
-BT /F2 8 Tf 516.8 253.0 Td (2022 - 2024) Tj ET
-BT /F2 8 Tf 36.0 242.0 Td (ESIGELEC - Cotonou, Benin) Tj ET
-BT /F2 10 Tf 36.0 226.0 Td (EXPERIENCE) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 222 m 559 222 l S
-BT /F2 9 Tf 36.0 210.0 Td (Stagiaire Informatique) Tj ET
-BT /F2 8 Tf 493.7 210.0 Td (Juil. - Aout 2023) Tj ET
-BT /F2 8 Tf 36.0 199.0 Td (PROMOPHARMA - Benin) Tj ET
-BT /F1 8 Tf 36.0 189.0 Td (Recueil des besoins, diagnostic d'incidents, maintenance parc informatique et serveurs.) Tj ET
-BT /F2 10 Tf 36.0 175.0 Td (LANGUES / QUALITES / CENTRES D'INTERET) Tj ET
-0.82 0.84 0.86 RG 0.6 w 36 171 m 559 171 l S
-BT /F1 8 Tf 36.0 159.0 Td (Francais - langue maternelle | Anglais - B2 \(docs techniques, specs\)) Tj ET
-BT /F1 8 Tf 36.0 149.0 Td (Autonome / Force de proposition / Esprit d'equipe / Agile) Tj ET
-BT /F1 8 Tf 36.0 139.0 Td (IA appliquee & agents / LLM · Produits SaaS & apps metier · Open source / GitHub) Tj ET
+4 0 obj<< /Length 7298 >>stream
+0.878 0.910 1.000 rg
+0 760.0 595 70 re f
+0.067 0.094 0.153 rg
+BT /F2 20 Tf 34.0 812.0 Td (Wadjoud PHILIPPE) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 10.5 Tf 34.0 797.0 Td (Élève Ingénieur ? Développeur Full Stack / IA) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 8.5 Tf 34.0 785.0 Td (Stage de fin d'études \(fév. 2027\) · Mobilité Paris · ESIGELEC Rouen) Tj ET
+0.216 0.188 0.639 rg
+BT /F1 8 Tf 34.0 774.0 Td (wadjoud.philippe@groupe-esigelec.org  ·  07 58 03 02 39) Tj ET
+0.216 0.188 0.639 rg
+BT /F1 8 Tf 34.0 764.0 Td (wadjoud-star.github.io/portfolio  ·  linkedin.com/in/wadjoud-philippe  ·  github.com/Wadjoud-star) Tj ET
+0.263 0.220 0.659 RG
+2.4 w 34 756.0 m 561 756.0 l S
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 742.0 Td (PROFIL) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 739.0 m 561 739.0 l S
+0.290 0.333 0.408 rg
+BT /F1 8 Tf 34.0 729.0 Td (Élève ingénieur bac+5 \(ESIGELEC, développement web full stack\), je conçois des applications web de bout en bout : analyse métier,) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 8 Tf 34.0 719.0 Td (développement Java / Spring & React, API REST, Docker et déploiement. Intéressé par l'IA appliquée aux processus métier \(OpenAI,) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 8 Tf 34.0 709.0 Td (automatisation\), les plateformes multi-rôles \(droits, admin, workflows\) et les produits en production. Recherche un stage de fin d'études) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 8 Tf 34.0 699.0 Td (de 6 mois à partir de février 2027 ? autonome, Agile/Scrum, force de proposition.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 684.0 Td (COMPÉTENCES TECHNIQUES) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 681.0 m 561 681.0 l S
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 34.0 671.0 Td (Backend) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 34.0 660.0 Td (Java, Spring Boot, Kotlin \(bases\), Node.js, Express, PHP, C#, Python,) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 34.0 650.5 Td (API REST, JWT) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 304.5 671.0 Td (Frontend) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 304.5 660.0 Td (React, Next.js, Angular, TypeScript, JavaScript, HTML/CSS, Tailwind,) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 304.5 650.5 Td (Bootstrap) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 34.0 637.0 Td (IA & Données) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 34.0 626.0 Td (OpenAI, LangChain \(notions\), PostgreSQL, MySQL, Prisma, Oracle SQL,) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 34.0 616.5 Td (MCD/MLD) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 304.5 637.0 Td (DevOps & Méthodes) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 304.5 626.0 Td (Docker, Kubernetes \(notions\), Git, CI/CD, Linux, Agile/Scrum, rôles &) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.5 Tf 304.5 616.5 Td (droits) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 600.0 Td (PROJETS SIGNIFICATIFS) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 597.0 m 561 597.0 l S
+0.067 0.094 0.153 rg
+BT /F2 9 Tf 34.0 587.0 Td (Smart CMS IA ? Génération de contenu & OpenAI) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 544.4 587.0 Td (2025) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 576.0 Td (CMS intelligent : génération IA \(blog, LinkedIn, X, illustration\) via OpenAI, jobs asynchrones, éditeur riche, SEO, auth et historique de) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 566.2 Td (projets.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 7.5 Tf 34.0 556.4 Td (Next.js · React · OpenAI · Supabase · Stripe · TipTap · TypeScript) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 9 Tf 34.0 545.4 Td (Beniphone ? Marketplace multi-rôles) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 544.4 545.4 Td (2025) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 534.4 Td (Catalogue, KYC vendeur, messagerie/négociation, transactions tracées, modération et dashboard admin. Rôles et workflows métier.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 7.5 Tf 34.0 524.6 Td (React · Node.js · Express · Prisma · MySQL · Tailwind · Agile) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 9 Tf 34.0 513.6 Td (Factis ? Mini-SaaS facturation) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 544.4 513.6 Td (2025) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 502.6 Td (SaaS France/Bénin : onboarding, clients, factures PDF, analytics, Stripe, rôles et conformité. Produit, API et déploiement.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 7.5 Tf 34.0 492.8 Td (Next.js · TypeScript · Prisma · PostgreSQL · Stripe · Docker) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 9 Tf 34.0 481.8 Td (Club Sport ? Application Java multi-rôles) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 544.4 481.8 Td (2025) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 470.8 Td (Recherche, cartographie, statistiques, exports CSV, espaces élu/club. Docker et Tomcat.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 7.5 Tf 34.0 461.0 Td (Java · JSP/Servlets · MySQL · Docker · Tomcat) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 9 Tf 34.0 450.0 Td (Mon Déménagement ? Plateforme en production) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 544.4 450.0 Td (2025) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 439.0 Td (Mise en relation clients/déménageurs : annonces, offres, messagerie, évaluations, admin. Analyse ? MVC ? production.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 7.5 Tf 34.0 429.2 Td (PHP · MySQL · MVC · Bootstrap · JavaScript · Git) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 413.2 Td (FORMATION) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 410.2 m 561 410.2 l S
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 34.0 400.2 Td (Diplôme d'Ingénieur ? Dev Web Full Stack) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 515.2 400.2 Td (2024 ? 2027) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 8 Tf 34.0 390.2 Td (ESIGELEC · Rouen) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 380.2 Td (Java, Spring, Angular, TypeScript, React, Docker, API REST, Agile/Scrum) Tj ET
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 34.0 370.4 Td (Cycle préparatoire intégré) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 515.2 370.4 Td (2022 ? 2024) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 8 Tf 34.0 360.4 Td (ESIGELEC · Cotonou, Bénin) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 343.4 Td (EXPÉRIENCE) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 340.4 m 561 340.4 l S
+0.067 0.094 0.153 rg
+BT /F2 8.5 Tf 34.0 330.4 Td (Stagiaire Informatique) Tj ET
+0.420 0.447 0.502 rg
+BT /F2 8 Tf 490.3 330.4 Td (Juil. ? Août 2023) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 8 Tf 34.0 320.4 Td (PROMOPHARMA · Bénin) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 310.4 Td (Recueil des besoins, diagnostic d'incidents, maintenance parc informatique et serveurs.) Tj ET
+0.263 0.220 0.659 rg
+BT /F2 9.5 Tf 34.0 295.6 Td (LANGUES · QUALITÉS · CENTRES D'INTÉRÊT) Tj ET
+0.827 0.827 0.843 RG
+0.5 w 34 292.6 m 561 292.6 l S
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 282.6 Td (Français ? langue maternelle · Anglais ? B2 \(docs techniques, specs\)) Tj ET
+0.263 0.220 0.659 rg
+34.0 268.8 41.1 12.0 re f
+1.000 1.000 1.000 rg
+BT /F2 7 Tf 40.0 272.0 Td (Autonome) Tj ET
+0.263 0.220 0.659 rg
+80.1 268.8 84.8 12.0 re f
+1.000 1.000 1.000 rg
+BT /F2 7 Tf 86.1 272.0 Td (Force de proposition) Tj ET
+0.263 0.220 0.659 rg
+169.9 268.8 66.6 12.0 re f
+1.000 1.000 1.000 rg
+BT /F2 7 Tf 175.9 272.0 Td (Esprit d'équipe) Tj ET
+0.263 0.220 0.659 rg
+241.5 268.8 30.2 12.0 re f
+1.000 1.000 1.000 rg
+BT /F2 7 Tf 247.5 272.0 Td (Agile) Tj ET
+0.263 0.220 0.659 rg
+276.7 268.8 41.1 12.0 re f
+1.000 1.000 1.000 rg
+BT /F2 7 Tf 282.7 272.0 Td (IA & LLM) Tj ET
+0.290 0.333 0.408 rg
+BT /F1 7.8 Tf 34.0 254.8 Td (Produits SaaS & applications métier · Open source / contributions GitHub) Tj ET
 endstream
 endobj
 5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>endobj
@@ -87,9 +172,9 @@ xref
 0000000056 00000 n 
 0000000111 00000 n 
 0000000245 00000 n 
-0000006072 00000 n 
-0000006167 00000 n 
+0000007592 00000 n 
+0000007687 00000 n 
 trailer<< /Size 7 /Root 1 0 R >>
 startxref
-6267
+7787
 %%EOF
