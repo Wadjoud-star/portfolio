@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light only">
-  <title>CV — Wadjoud PHILIPPE — TIMA</title>
+  <title>CV — Wadjoud PHILIPPE</title>
   <style>
     html, body {
       margin: 0;
@@ -17,7 +17,7 @@
       place-items: center;
     }
     .box {
-      width: min(420px, 92vw);
+      width: min(440px, 92vw);
       background: #fff;
       color: #111827;
       border-radius: 16px;
@@ -27,8 +27,9 @@
     }
     h1 { font-size: 1.25rem; margin: 0 0 .5rem; }
     p { margin: 0 0 1.25rem; color: #4b5563; line-height: 1.45; font-size: .95rem; }
+    .btns { display: flex; flex-direction: column; gap: .75rem; }
     a.btn {
-      display: inline-block;
+      display: block;
       background: #3730a3;
       color: #fff;
       text-decoration: none;
@@ -36,6 +37,7 @@
       padding: .85rem 1.25rem;
       border-radius: 10px;
     }
+    a.btn.secondary { background: #4338ca; }
     a.back {
       display: inline-block;
       margin-top: 1rem;
@@ -46,22 +48,13 @@
 </head>
 <body>
   <div class="box">
-    <h1>CV TIMA — Takima</h1>
-    <p>Télécharge le PDF directement (version stable, lisible, 1 page A4).</p>
-    <a class="btn" href="assets/cv-tima.pdf" download="CV-Wadjoud-PHILIPPE-TIMA.pdf">Télécharger le PDF</a>
-    <br>
+    <h1>CV — Wadjoud PHILIPPE</h1>
+    <p>Choisis la version adaptée à l’offre Takima.</p>
+    <div class="btns">
+      <a class="btn" href="assets/cv-de.pdf" download="CV-Wadjoud-PHILIPPE-DE.pdf">CV DE (Takima)</a>
+      <a class="btn secondary" href="assets/cv-tima.pdf" download="CV-Wadjoud-PHILIPPE-TIMA.pdf">CV TIMA (Takima)</a>
+    </div>
     <a class="back" href="index.html">← Retour au portfolio</a>
   </div>
-  <script>
-    // Téléchargement auto si on arrive depuis le bouton CV
-    if (location.search.includes('auto=1')) {
-      const a = document.createElement('a');
-      a.href = 'assets/cv-tima.pdf';
-      a.download = 'CV-Wadjoud-PHILIPPE-TIMA.pdf';
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-    }
-  </script>
 </body>
 </html>
