@@ -136,11 +136,11 @@ def main():
 
     p.text(m, 19, "Wadjoud PHILIPPE", bold=True, color=TEXT)
     p.y -= 14
-    p.text(m, 10, "Eleve Ingenieur - Developpeur Java / Webservices / SQL", bold=True, color=ACCENT)
+    p.text(m, 10, "Élève ingénieur - Développeur Java / Webservices / SQL", bold=True, color=ACCENT)
     p.y -= 11
     p.text(
         m, 8.2,
-        "Stage fin d'etudes M2 (fev. 2027) - ESIGELEC Rouen - Anglais B2+",
+        "Stage de fin d'études M2 (fév. 2027) - ESIGELEC Rouen - Anglais B2+",
         color=MUTED,
     )
     p.y -= 10
@@ -157,22 +157,21 @@ def main():
     p.section("Profil")
     p.multilines(
         7.8,
-        "Eleve ingenieur M2 (ESIGELEC), developpeur Java avec projets academiques et personnels. "
-        "Je propose des solutions techniques aux besoins metier, concois des fonctionnalites, "
-        "realise des tests d'integration, corrige des anomalies et redige la documentation. "
-        "A l'aise avec les webservices REST (et notions SOAP), SQL (MySQL/PostgreSQL, notions Oracle / "
-        "SQL Server) et le continuous delivery (Git, CI/CD, Docker). Anglais B2 minimum. "
-        "Recherche un stage de fin d'etudes aupres de leads techniques a partir de fevrier 2027.",
+        "Élève ingénieur en M2 à l'ESIGELEC (Rouen). Je développe surtout en Java, avec des APIs REST "
+        "et du SQL. Sur mes projets, j'ai l'habitude de partir d'un besoin, coder la feature, tester, "
+        "corriger les bugs et laisser une doc claire. Je connais aussi un peu SOAP, Oracle et SQL Server. "
+        "À l'aise en anglais (B2). Je cherche un stage de fin d'études à partir de février 2027, "
+        "idéalement aux côtés de leads techniques.",
         leading=9.6,
         color=MUTED,
     )
 
-    p.section("Competences techniques")
+    p.section("Compétences techniques")
     skills = [
-        ("Java & Backend", "Java, Spring Boot, JEE, POO, conception de fonctionnalites, APIs"),
-        ("Webservices", "REST (maitrise), SOAP (notions), JSON, JWT, documentation d'API"),
-        ("Bases de donnees", "SQL, MySQL, PostgreSQL, notions Oracle / SQL Server, modelisation"),
-        ("Qualite & Delivery", "Tests d'integration, Git, CI/CD, Docker, Jenkins/GitLab (notions), docs"),
+        ("Java & Backend", "Java, Spring Boot, JEE, POO, APIs, conception de fonctionnalités"),
+        ("Webservices", "REST (bon niveau), SOAP (bases), JSON, JWT, doc d'API"),
+        ("Bases de données", "SQL, MySQL, PostgreSQL, bases Oracle / SQL Server"),
+        ("Qualité & Delivery", "Tests d'intégration, Git, CI/CD, Docker, Jenkins/GitLab (bases)"),
     ]
     col_w = (p.page_w - 2 * m - 12) / 2
     start_y = p.y
@@ -204,51 +203,50 @@ def main():
     y_r = skill_block(right_x, skills[3][0], skills[3][1], row2)
     p.y = min(y_l, y_r) - 1
 
-    p.section("Projets significatifs")
+    p.section("Projets")
     projects = [
         (
-            "Club Sport - Java : conception, tests & deploiement",
+            "Club Sport - App Java multi-rôles",
             "2025",
             [
-                "Proposition de solutions techniques a partir des besoins (roles, recherche, stats)",
-                "Developpement Java / JEE, SQL, tests des parcours, correction d'anomalies",
-                "Documentation et mise en production Docker / Tomcat",
+                "Besoins métiers (rôles, recherche, stats) -> features Java / JEE + SQL",
+                "Tests des parcours, correction de bugs, doc",
+                "Mise en prod avec Docker / Tomcat",
             ],
             "Java | Spring (formation) | SQL | Docker | Git | Agile",
         ),
         (
-            "Factis - Webservices REST + SQL + continuous delivery",
+            "Factis - APIs REST, SQL et CI",
             "2025",
             [
-                "Conception de fonctionnalites et APIs REST (clients, factures, analytics)",
-                "Bases SQL, coherence des donnees, tests d'integration des parcours",
-                "CI / Docker, documentation technique des modules",
+                "Features et APIs REST (clients, factures, analytics)",
+                "Checks sur les données, tests des parcours bout en bout",
+                "Docker / CI et petite doc technique",
             ],
             "TypeScript | API REST | PostgreSQL | Docker | Git | CI",
         ),
         (
-            "Beniphone - Features, anomalies & collaboration lead / produit",
+            "Beniphone - Features et correctifs en équipe",
             "2025",
             [
-                "Chiffrage leger / priorisation des taches avec l'equipe",
-                "Analyse et correction d'anomalies, documentation des ecarts",
+                "Priorisation des tâches avec l'équipe",
+                "Debug, correctifs, notes sur les écarts trouvés",
             ],
             "Node.js | REST | MySQL | React | Git",
         ),
         (
-            "Smart CMS IA - Delivery & documentation",
+            "Smart CMS IA - Pipelines et vérifs",
             "2025",
             [
-                "Pipelines, jobs asynchrones, verification des sorties (approche tests d'integration)",
-                "Documentation technique et iterations continues",
+                "Jobs async, vérif des sorties, doc au fur et à mesure",
             ],
             "TypeScript | REST | SQL | Git | CI",
         ),
         (
-            "Mon Demenagement - Maintenance / correction en production",
+            "Mon Déménagement - Prod / maintenance",
             "2025",
             [
-                "Diagnostic d'anomalies, correctifs, documentation des interventions",
+                "Bugs en prod, correctifs, petites notes d'intervention",
             ],
             "PHP | SQL | JavaScript | Git",
         ),
@@ -264,56 +262,56 @@ def main():
         p.y -= 11
 
     p.section("Formation")
-    p.text(m, 8.2, "Diplome d'Ingenieur - Dev Web Full Stack (M1/M2)", bold=True, color=TEXT)
+    p.text(m, 8.2, "Diplôme d'ingénieur - Dev Web Full Stack (M1/M2)", bold=True, color=TEXT)
     p.text_right(7.5, "2024 - 2027", bold=True, color=LIGHT)
     p.y -= 10
     p.text(m, 7.6, "ESIGELEC - Rouen", bold=True, color=ACCENT)
     p.y -= 10
     p.multilines(
         7.4,
-        "Java, Spring Boot, webservices REST/SOAP, SQL, Oracle/SQL Server (notions), CI/CD, anglais B2",
+        "Java, Spring Boot, REST/SOAP, SQL, bases Oracle/SQL Server, CI/CD, anglais B2",
         leading=9.4,
         color=MUTED,
     )
     p.space(2)
-    p.text(m, 8.2, "Cycle preparatoire integre", bold=True, color=TEXT)
+    p.text(m, 8.2, "Cycle préparatoire intégré", bold=True, color=TEXT)
     p.text_right(7.5, "2022 - 2024", bold=True, color=LIGHT)
     p.y -= 10
-    p.text(m, 7.6, "ESIGELEC - Cotonou, Benin", bold=True, color=ACCENT)
+    p.text(m, 7.6, "ESIGELEC - Cotonou, Bénin", bold=True, color=ACCENT)
     p.y -= 11
 
-    p.section("Experience")
-    p.text(m, 8.2, "Stagiaire Informatique", bold=True, color=TEXT)
-    p.text_right(7.5, "Juil. - Aout 2023", bold=True, color=LIGHT)
+    p.section("Expérience")
+    p.text(m, 8.2, "Stagiaire informatique", bold=True, color=TEXT)
+    p.text_right(7.5, "Juil. - Août 2023", bold=True, color=LIGHT)
     p.y -= 10
-    p.text(m, 7.6, "PROMOPHARMA - Benin", bold=True, color=ACCENT)
+    p.text(m, 7.6, "PROMOPHARMA - Bénin", bold=True, color=ACCENT)
     p.y -= 10
-    p.bullet("Analyse et correction d'anomalies, documentation, travail avec referents techniques")
+    p.bullet("Support, bugs, petites docs - travail avec l'équipe technique")
 
-    p.section("Langues, disponibilite et centres d'interet")
+    p.section("Langues & dispo")
     p.text(m, 8, "Langues", bold=True, color=TEXT)
     p.y -= 10
     p.multilines(
         7.5,
-        "Francais : langue maternelle  |  Anglais : B2+ (docs techniques, specs, echanges professionnels)",
+        "Français : langue maternelle  |  Anglais : B2+ (docs, specs, échanges tech)",
         leading=9.4,
         color=MUTED,
     )
     p.space(2)
-    p.text(m, 8, "Disponibilite", bold=True, color=TEXT)
+    p.text(m, 8, "Disponibilité", bold=True, color=TEXT)
     p.y -= 10
     p.multilines(
         7.5,
-        "Stage fin d'etudes a partir de fevrier 2027 (M2)  |  Mobilite selon site Capgemini",
+        "Stage de fin d'études à partir de février 2027  |  Mobile selon le site Capgemini",
         leading=9.4,
         color=MUTED,
     )
     p.space(2)
-    p.text(m, 8, "Centres d'interet techniques", bold=True, color=TEXT)
+    p.text(m, 8, "Ce qui m'intéresse", bold=True, color=TEXT)
     p.y -= 10
     p.multilines(
         7.5,
-        "Java & webservices REST/SOAP  |  SQL / Oracle / SQL Server  |  Continuous delivery  |  Docs techniques",
+        "Java, REST/SOAP, SQL, CI/CD, bosser proprement avec une équipe tech",
         leading=9.4,
         color=MUTED,
     )
