@@ -13,6 +13,7 @@ RULE = (0.827, 0.827, 0.843)
 
 
 def esc(s: str) -> str:
+    """Escape PDF literal string; non-ASCII as octal for WinAnsi viewers."""
     replacements = {
         "\u2014": "-", "\u2013": "-", "\u2022": "-", "\u2192": "->",
         "\u00b7": "|", "\u2026": "...", "\u00a0": " ",
@@ -20,10 +21,22 @@ def esc(s: str) -> str:
     }
     for a, b in replacements.items():
         s = s.replace(a, b)
-    return (
-        s.encode("latin-1", "replace").decode("latin-1")
-        .replace("\\", "\\\\").replace("(", "\\(").replace(")", "\\)")
-    )
+    # Drop anything outside Latin-1 / WinAnsi
+    s = s.encode("latin-1", "replace").decode("latin-1")
+    out = []
+    for ch in s:
+        o = ord(ch)
+        if ch == "\\":
+            out.append("\\\\")
+        elif ch == "(":
+            out.append("\\(")
+        elif ch == ")":
+            out.append("\\)")
+        elif o < 32 or o > 126:
+            out.append(f"\\{o:03o}")
+        else:
+            out.append(ch)
+    return "".join(out)
 
 
 def rgb(c):

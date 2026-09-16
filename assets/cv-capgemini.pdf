@@ -2,13 +2,13 @@
 1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
 2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
 3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>endobj
-4 0 obj<< /Length 7279 >>stream
+4 0 obj<< /Length 7444 >>stream
 0.067 0.094 0.153 rg
 BT /F2 19 Tf 34.0 812.0 Td (Wadjoud PHILIPPE) Tj ET
 0.263 0.220 0.659 rg
-BT /F2 10 Tf 34.0 798.0 Td (Élève ingénieur - Développeur Java / Webservices / SQL) Tj ET
+BT /F2 10 Tf 34.0 798.0 Td (\311l\350ve ing\351nieur - D\351veloppeur Java / Webservices / SQL) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 8.2 Tf 34.0 787.0 Td (Stage de fin d'études M2 \(fév. 2027\) - ESIGELEC Rouen - Anglais B2+) Tj ET
+BT /F1 8.2 Tf 34.0 787.0 Td (Stage de fin d'\351tudes M2 \(f\351v. 2027\) - ESIGELEC Rouen - Anglais B2+) Tj ET
 0.216 0.188 0.639 rg
 BT /F1 7.8 Tf 34.0 777.0 Td (wadjoud.philippe@groupe-esigelec.org  |  07 58 03 02 39) Tj ET
 0.216 0.188 0.639 rg
@@ -20,43 +20,43 @@ BT /F2 9.5 Tf 34.0 746.0 Td (PROFIL) Tj ET
 0.827 0.827 0.843 RG
 0.5 w 34 742.0 m 561 742.0 l S
 0.290 0.333 0.408 rg
-BT /F1 7.8 Tf 34.0 731.0 Td (Élève ingénieur en M2 à l'ESIGELEC \(Rouen\). Je développe surtout en Java, avec des APIs REST et du SQL. Sur mes projets, j'ai l'habitude de) Tj ET
+BT /F1 7.8 Tf 34.0 731.0 Td (\311l\350ve ing\351nieur en M2 \340 l'ESIGELEC \(Rouen\). Je d\351veloppe surtout en Java, avec des APIs REST et du SQL. Sur mes projets, j'ai l'habitude de) Tj ET
 0.290 0.333 0.408 rg
 BT /F1 7.8 Tf 34.0 721.4 Td (partir d'un besoin, coder la feature, tester, corriger les bugs et laisser une doc claire. Je connais aussi un peu SOAP, Oracle et SQL) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.8 Tf 34.0 711.8 Td (Server. À l'aise en anglais \(B2\). Je cherche un stage de fin d'études à partir de février 2027, idéalement aux côtés de leads techniques.) Tj ET
+BT /F1 7.8 Tf 34.0 711.8 Td (Server. \300 l'aise en anglais \(B2\). Je cherche un stage de fin d'\351tudes \340 partir de f\351vrier 2027, id\351alement aux c\364t\351s de leads techniques.) Tj ET
 0.263 0.220 0.659 rg
-BT /F2 9.5 Tf 34.0 695.2 Td (COMPÉTENCES TECHNIQUES) Tj ET
+BT /F2 9.5 Tf 34.0 695.2 Td (COMP\311TENCES TECHNIQUES) Tj ET
 0.827 0.827 0.843 RG
 0.5 w 34 691.2 m 561 691.2 l S
 0.067 0.094 0.153 rg
 BT /F2 8.2 Tf 34.0 680.2 Td (Java & Backend) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.2 Tf 34.0 670.2 Td (Java, Spring Boot, JEE, POO, APIs, conception de fonctionnalités) Tj ET
+BT /F1 7.2 Tf 34.0 670.2 Td (Java, Spring Boot, JEE, POO, APIs, conception de fonctionnalit\351s) Tj ET
 0.067 0.094 0.153 rg
 BT /F2 8.2 Tf 303.5 680.2 Td (Webservices) Tj ET
 0.290 0.333 0.408 rg
 BT /F1 7.2 Tf 303.5 670.2 Td (REST \(bon niveau\), SOAP \(bases\), JSON, JWT, doc d'API) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.2 Tf 34.0 658.2 Td (Bases de données) Tj ET
+BT /F2 8.2 Tf 34.0 658.2 Td (Bases de donn\351es) Tj ET
 0.290 0.333 0.408 rg
 BT /F1 7.2 Tf 34.0 648.2 Td (SQL, MySQL, PostgreSQL, bases Oracle / SQL Server) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.2 Tf 303.5 658.2 Td (Qualité & Delivery) Tj ET
+BT /F2 8.2 Tf 303.5 658.2 Td (Qualit\351 & Delivery) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.2 Tf 303.5 648.2 Td (Tests d'intégration, Git, CI/CD, Docker, Jenkins/GitLab \(bases\)) Tj ET
+BT /F1 7.2 Tf 303.5 648.2 Td (Tests d'int\351gration, Git, CI/CD, Docker, Jenkins/GitLab \(bases\)) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 9.5 Tf 34.0 631.2 Td (PROJETS) Tj ET
 0.827 0.827 0.843 RG
 0.5 w 34 627.2 m 561 627.2 l S
 0.067 0.094 0.153 rg
-BT /F2 8.5 Tf 34.0 616.2 Td (Club Sport - App Java multi-rôles) Tj ET
+BT /F2 8.5 Tf 34.0 616.2 Td (Club Sport - App Java multi-r\364les) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 545.4 616.2 Td (2025) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 605.2 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 605.2 Td (Besoins métiers \(rôles, recherche, stats\) -> features Java / JEE + SQL) Tj ET
+BT /F1 7.6 Tf 44.0 605.2 Td (Besoins m\351tiers \(r\364les, recherche, stats\) -> features Java / JEE + SQL) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 595.0 Td (-) Tj ET
 0.290 0.333 0.408 rg
@@ -78,7 +78,7 @@ BT /F1 7.6 Tf 44.0 552.6 Td (Features et APIs REST \(clients, factures, analytic
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 542.4 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 542.4 Td (Checks sur les données, tests des parcours bout en bout) Tj ET
+BT /F1 7.6 Tf 44.0 542.4 Td (Checks sur les donn\351es, tests des parcours bout en bout) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 532.2 Td (-) Tj ET
 0.290 0.333 0.408 rg
@@ -86,31 +86,31 @@ BT /F1 7.6 Tf 44.0 532.2 Td (Docker / CI et petite doc technique) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.2 Tf 34.0 522.0 Td (TypeScript | API REST | PostgreSQL | Docker | Git | CI) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.5 Tf 34.0 511.0 Td (Beniphone - Features et correctifs en équipe) Tj ET
+BT /F2 8.5 Tf 34.0 511.0 Td (Beniphone - Features et correctifs en \351quipe) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 545.4 511.0 Td (2025) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 500.0 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 500.0 Td (Priorisation des tâches avec l'équipe) Tj ET
+BT /F1 7.6 Tf 44.0 500.0 Td (Priorisation des t\342ches avec l'\351quipe) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 489.8 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 489.8 Td (Debug, correctifs, notes sur les écarts trouvés) Tj ET
+BT /F1 7.6 Tf 44.0 489.8 Td (Debug, correctifs, notes sur les \351carts trouv\351s) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.2 Tf 34.0 479.6 Td (Node.js | REST | MySQL | React | Git) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.5 Tf 34.0 468.6 Td (Smart CMS IA - Pipelines et vérifs) Tj ET
+BT /F2 8.5 Tf 34.0 468.6 Td (Smart CMS IA - Pipelines et v\351rifs) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 545.4 468.6 Td (2025) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 457.6 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 457.6 Td (Jobs async, vérif des sorties, doc au fur et à mesure) Tj ET
+BT /F1 7.6 Tf 44.0 457.6 Td (Jobs async, v\351rif des sorties, doc au fur et \340 mesure) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.2 Tf 34.0 447.4 Td (TypeScript | REST | SQL | Git | CI) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.5 Tf 34.0 436.4 Td (Mon Déménagement - Prod / maintenance) Tj ET
+BT /F2 8.5 Tf 34.0 436.4 Td (Mon D\351m\351nagement - Prod / maintenance) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 545.4 436.4 Td (2025) Tj ET
 0.263 0.220 0.659 rg
@@ -124,7 +124,7 @@ BT /F2 9.5 Tf 34.0 397.2 Td (FORMATION) Tj ET
 0.827 0.827 0.843 RG
 0.5 w 34 393.2 m 561 393.2 l S
 0.067 0.094 0.153 rg
-BT /F2 8.2 Tf 34.0 382.2 Td (Diplôme d'ingénieur - Dev Web Full Stack \(M1/M2\)) Tj ET
+BT /F2 8.2 Tf 34.0 382.2 Td (Dipl\364me d'ing\351nieur - Dev Web Full Stack \(M1/M2\)) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 518.1 382.2 Td (2024 - 2027) Tj ET
 0.263 0.220 0.659 rg
@@ -132,25 +132,25 @@ BT /F2 7.6 Tf 34.0 372.2 Td (ESIGELEC - Rouen) Tj ET
 0.290 0.333 0.408 rg
 BT /F1 7.4 Tf 34.0 362.2 Td (Java, Spring Boot, REST/SOAP, SQL, bases Oracle/SQL Server, CI/CD, anglais B2) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8.2 Tf 34.0 350.8 Td (Cycle préparatoire intégré) Tj ET
+BT /F2 8.2 Tf 34.0 350.8 Td (Cycle pr\351paratoire int\351gr\351) Tj ET
 0.420 0.447 0.502 rg
 BT /F2 7.5 Tf 518.1 350.8 Td (2022 - 2024) Tj ET
 0.263 0.220 0.659 rg
-BT /F2 7.6 Tf 34.0 340.8 Td (ESIGELEC - Cotonou, Bénin) Tj ET
+BT /F2 7.6 Tf 34.0 340.8 Td (ESIGELEC - Cotonou, B\351nin) Tj ET
 0.263 0.220 0.659 rg
-BT /F2 9.5 Tf 34.0 322.8 Td (EXPÉRIENCE) Tj ET
+BT /F2 9.5 Tf 34.0 322.8 Td (EXP\311RIENCE) Tj ET
 0.827 0.827 0.843 RG
 0.5 w 34 318.8 m 561 318.8 l S
 0.067 0.094 0.153 rg
 BT /F2 8.2 Tf 34.0 307.8 Td (Stagiaire informatique) Tj ET
 0.420 0.447 0.502 rg
-BT /F2 7.5 Tf 494.7 307.8 Td (Juil. - Août 2023) Tj ET
+BT /F2 7.5 Tf 494.7 307.8 Td (Juil. - Ao\373t 2023) Tj ET
 0.263 0.220 0.659 rg
-BT /F2 7.6 Tf 34.0 297.8 Td (PROMOPHARMA - Bénin) Tj ET
+BT /F2 7.6 Tf 34.0 297.8 Td (PROMOPHARMA - B\351nin) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 7.6 Tf 34.0 287.8 Td (-) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.6 Tf 44.0 287.8 Td (Support, bugs, petites docs - travail avec l'équipe technique) Tj ET
+BT /F1 7.6 Tf 44.0 287.8 Td (Support, bugs, petites docs - travail avec l'\351quipe technique) Tj ET
 0.263 0.220 0.659 rg
 BT /F2 9.5 Tf 34.0 270.6 Td (LANGUES & DISPO) Tj ET
 0.827 0.827 0.843 RG
@@ -158,15 +158,15 @@ BT /F2 9.5 Tf 34.0 270.6 Td (LANGUES & DISPO) Tj ET
 0.067 0.094 0.153 rg
 BT /F2 8 Tf 34.0 255.6 Td (Langues) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.5 Tf 34.0 245.6 Td (Français : langue maternelle | Anglais : B2+ \(docs, specs, échanges tech\)) Tj ET
+BT /F1 7.5 Tf 34.0 245.6 Td (Fran\347ais : langue maternelle | Anglais : B2+ \(docs, specs, \351changes tech\)) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8 Tf 34.0 234.2 Td (Disponibilité) Tj ET
+BT /F2 8 Tf 34.0 234.2 Td (Disponibilit\351) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.5 Tf 34.0 224.2 Td (Stage de fin d'études à partir de février 2027 | Mobile selon le site Capgemini) Tj ET
+BT /F1 7.5 Tf 34.0 224.2 Td (Stage de fin d'\351tudes \340 partir de f\351vrier 2027 | Mobile selon le site Capgemini) Tj ET
 0.067 0.094 0.153 rg
-BT /F2 8 Tf 34.0 212.8 Td (Ce qui m'intéresse) Tj ET
+BT /F2 8 Tf 34.0 212.8 Td (Ce qui m'int\351resse) Tj ET
 0.290 0.333 0.408 rg
-BT /F1 7.5 Tf 34.0 202.8 Td (Java, REST/SOAP, SQL, CI/CD, bosser proprement avec une équipe tech) Tj ET
+BT /F1 7.5 Tf 34.0 202.8 Td (Java, REST/SOAP, SQL, CI/CD, bosser proprement avec une \351quipe tech) Tj ET
 endstream
 endobj
 5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>endobj
@@ -178,9 +178,9 @@ xref
 0000000056 00000 n 
 0000000111 00000 n 
 0000000245 00000 n 
-0000007573 00000 n 
-0000007668 00000 n 
+0000007738 00000 n 
+0000007833 00000 n 
 trailer<< /Size 7 /Root 1 0 R >>
 startxref
-7768
+7933
 %%EOF
