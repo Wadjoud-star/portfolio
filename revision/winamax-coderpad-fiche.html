@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fiche révision Winamax — Coderpad</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --accent: #1d4ed8;
+      --box: #f6f6f4;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 820px;
+      padding: 1.25rem 1rem 3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      line-height: 1.45;
+      background: #fff;
+    }
+    h1 { font-size: 1.45rem; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.15rem;
+      margin: 2rem 0 .6rem;
+      padding-bottom: .25rem;
+      border-bottom: 2px solid var(--accent);
+      color: var(--accent);
+      page-break-after: avoid;
+    }
+    h3 { font-size: 1rem; margin: 1.25rem 0 .4rem; page-break-after: avoid; }
+    p, li { color: var(--muted); }
+    .sub { color: var(--muted); margin: 0 0 1rem; }
+    .meta {
+      background: var(--box);
+      border: 1px solid var(--line);
+      padding: .75rem 1rem;
+      border-radius: 8px;
+      font-size: .92rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .9rem;
+      margin: .6rem 0 1rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: .45rem .5rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #eef2ff; }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .82rem;
+    }
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: .75rem .9rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      page-break-inside: avoid;
+    }
+    .write {
+      min-height: 4.5rem;
+      border: 1.5px dashed #999;
+      border-radius: 8px;
+      background: #fffcf5;
+      padding: .5rem .65rem;
+      margin: .4rem 0 .8rem;
+      white-space: pre-wrap;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      font-size: .82rem;
+      color: #666;
+    }
+    .write::before { content: "Écris ici / annote :"; display: block; color: #999; font-size: .75rem; margin-bottom: .35rem; font-family: inherit; }
+    .check { margin: .25rem 0; }
+    .ok { color: var(--ok); font-weight: 600; }
+    .box {
+      border: 1px solid var(--line);
+      background: var(--box);
+      border-radius: 8px;
+      padding: .7rem .85rem;
+      margin: .6rem 0;
+    }
+    .day {
+      background: #eff6ff;
+      border-left: 4px solid var(--accent);
+      padding: .6rem .8rem;
+      margin: 1rem 0;
+    }
+    @media print {
+      body { max-width: none; padding: 0; font-size: 11pt; }
+      pre { background: #f3f3f3 !important; color: #111 !important; border: 1px solid #ccc; }
+      .write { min-height: 3.2rem; }
+      a { color: inherit; text-decoration: none; }
+      h2 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Fiche de révision — Test Coderpad Winamax</h1>
+  <p class="sub">Stage Fullstack · Format de contenu interactif · Objectif ~75–80 %</p>
+
+  <div class="meta">
+    <strong>Stack :</strong> React · TypeScript · Node.js · JS · MySQL · Redis<br />
+    <strong>Deadline approx. :</strong> mardi 22 sept. 2026 (7 j depuis le mail du 15)<br />
+    <strong>Règle d’or :</strong> 80 % du temps sur JS/TS + React + petit Node. Redis/WS = notions.<br />
+    <strong>Date prévue du test :</strong> _______________ &nbsp; <strong>Heure :</strong> _______________
+  </div>
+
+  <h2>Plan 3 jours</h2>
+  <table>
+    <tr><th>Jour</th><th>Focus</th><th>Durée</th><th>Fait</th></tr>
+    <tr><td>J1</td><td>JavaScript / TypeScript</td><td>2–3 h</td><td>☐</td></tr>
+    <tr><td>J2</td><td>React (state, listes, forms)</td><td>2–3 h</td><td>☐</td></tr>
+    <tr><td>J3</td><td>Mini sujet Winamax + Node</td><td>2–3 h</td><td>☐</td></tr>
+    <tr><td>J4</td><td>Passer le test</td><td>1–2 h</td><td>☐</td></tr>
+    <tr><td>J5</td><td>Marge</td><td>—</td><td>☐</td></tr>
+  </table>
+
+  <h2>0 — Ce que Winamax attend</h2>
+  <div class="box">
+    <p><strong>Sujet stage :</strong> format riche (pas une notif) → composants interactifs, lecteur vidéo, réactions sync, états <code>vu / pas vu / repris en cours</code>, back-office édito, métriques (ouvertures, complétion, décrochage).</p>
+    <p><strong>Coderpad teste surtout :</strong> lire l’énoncé, manipuler données, UI React simple, parfois 1–2 fonctions back, cas limites.</p>
+  </div>
+  <div class="write">Notes perso</div>
+
+  <h2>1 — JS / TS (Jour 1)</h2>
+  <div class="day">Focus Jour 1 : map/filter/find, update immuable, async/await, types simples.</div>
+
+  <h3>Cheatsheet</h3>
+  <pre>const unread = contents.filter(c =&gt; c.status === "unread");
+const titles = contents.map(c =&gt; c.title);
+const one = contents.find(c =&gt; c.id === 2);
+
+function markAsSeen(list, id) {
+  return list.map(c =&gt;
+    c.id === id ? { ...c, status: "seen", progress: 100 } : c
+  );
+}
+
+async function load() {
+  try {
+    const res = await fetch("/api/contents");
+    return await res.json();
+  } catch {
+    return [];
+  }
+}
+
+type Status = "unread" | "watching" | "seen";
+interface Content {
+  id: number; title: string; status: Status; progress: number;
+}</pre>
+
+  <p class="check">☐ map/filter/find &nbsp; ☐ async/await &nbsp; ☐ interface TS simple</p>
+
+  <h3>Exo A — Filtrer non lus</h3>
+  <pre>const contents = [
+  { id: 1, title: "A", status: "unread", progress: 0 },
+  { id: 2, title: "B", status: "watching", progress: 40 },
+  { id: 3, title: "C", status: "seen", progress: 100 },
+  { id: 4, title: "D", status: "unread", progress: 0 },
+];
+// Retourne uniquement unread</pre>
+  <div class="write">Ta solution</div>
+  <p class="ok">Correction : <code>contents.filter(c =&gt; c.status === "unread")</code> &nbsp; ☐ Fait</p>
+
+  <h3>Exo B — Compter par statut</h3>
+  <p>Retourner <code>{ unread, watching, seen }</code></p>
+  <div class="write">Ta solution</div>
+  <pre>const counts = contents.reduce((acc, c) =&gt; {
+  acc[c.status] = (acc[c.status] || 0) + 1;
+  return acc;
+}, { unread: 0, watching: 0, seen: 0 });</pre>
+  <p>☐ Fait</p>
+
+  <h3>Exo C — markAsSeen(list, id)</h3>
+  <p>Nouvelle liste, sans muter. Id inconnu → liste inchangée.</p>
+  <div class="write">Ta solution</div>
+  <pre>function markAsSeen(list, id) {
+  return list.map(c =&gt;
+    c.id === id ? { ...c, status: "seen", progress: 100 } : c
+  );
+}</pre>
+  <p>☐ Fait</p>
+
+  <h3>Exo D — updateProgress(list, id, progress)</h3>
+  <p>≤0 unread · &gt;0 et &lt;100 watching · ≥100 seen (clamp 0..100)</p>
+  <div class="write">Ta solution</div>
+  <pre>function updateProgress(list, id, progress) {
+  return list.map(c =&gt; {
+    if (c.id !== id) return c;
+    const p = Math.max(0, Math.min(100, progress));
+    const status = p &lt;= 0 ? "unread" : p &gt;= 100 ? "seen" : "watching";
+    return { ...c, progress: p, status };
+  });
+}</pre>
+  <p>☐ Fait</p>
+
+  <h3>Exo E — async getTitle(id)</h3>
+  <pre>function fakeApi(id) {
+  return new Promise((resolve, reject) =&gt; {
+    if (id === 0) reject(new Error("boom"));
+    else resolve({ id, title: "Contenu " + id });
+  });
+}
+// getTitle: retourne title ou "Erreur"</pre>
+  <div class="write">Ta solution</div>
+  <pre>async function getTitle(id) {
+  try {
+    const data = await fakeApi(id);
+    return data.title;
+  } catch {
+    return "Erreur";
+  }
+}</pre>
+  <p>☐ Fait · Score J1 : ___ / 5 · Blocage : _______________</p>
+
+  <h2>2 — React (Jour 2)</h2>
+  <div class="day">Focus Jour 2 : useState, listes + key, formulaire contrôlé, badge statut, mini player.</div>
+
+  <h3>Cheatsheet</h3>
+  <pre>const [items, setItems] = useState(initial);
+
+{items.map(c =&gt; &lt;li key={c.id}&gt;{c.title}&lt;/li&gt;)}
+
+&lt;input value={q} onChange={e =&gt; setQ(e.target.value)} /&gt;
+
+setItems(prev =&gt;
+  prev.map(c =&gt; c.id === id ? { ...c, status: "seen", progress: 100 } : c)
+);
+
+const visible = onlyUnread
+  ? items.filter(c =&gt; c.status === "unread")
+  : items;</pre>
+  <p class="check">☐ useState &nbsp; ☐ key &nbsp; ☐ input contrôlé &nbsp; ☐ update immuable</p>
+
+  <h3>Exo F — Liste + badge + progress%</h3>
+  <div class="write">Brouillon composant</div>
+  <p>☐ Fait</p>
+
+  <h3>Exo G — Bouton “Marquer comme vu”</h3>
+  <div class="write">Ta solution</div>
+  <pre>function markSeen(id) {
+  setItems(prev =&gt;
+    prev.map(c =&gt; c.id === id ? { ...c, status: "seen", progress: 100 } : c)
+  );
+}</pre>
+  <p>☐ Fait</p>
+
+  <h3>Exo H — Filtre non lus</h3>
+  <div class="write">Ta solution</div>
+  <p>☐ Fait</p>
+
+  <h3>Exo I — Mini lecteur</h3>
+  <p>State playing + progress. Boutons Play / Pause / +10% / Reset. À 100% → seen.</p>
+  <div class="write">Ta solution</div>
+  <pre>function Player() {
+  const [playing, setPlaying] = useState(false);
+  const [progress, setProgress] = useState(0);
+  return (
+    &lt;div&gt;
+      &lt;p&gt;{playing ? "Lecture" : "Pause"} — {progress}%&lt;/p&gt;
+      &lt;button onClick={() =&gt; setPlaying(true)}&gt;Play&lt;/button&gt;
+      &lt;button onClick={() =&gt; setPlaying(false)}&gt;Pause&lt;/button&gt;
+      &lt;button onClick={() =&gt; setProgress(p =&gt; Math.min(100, p + 10))}&gt;+10%&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}</pre>
+  <p>☐ Fait · Score J2 : ___ / 4</p>
+
+  <h2>3 — Node + data + mini projet (Jour 3)</h2>
+  <div class="day">Focus Jour 3 : logique back, modèle MySQL mental, Redis 10 min, mini “Stories Winamax”.</div>
+
+  <h3>Logique back (mémoire)</h3>
+  <pre>let contents = [{ id: 1, title: "A", status: "unread", progress: 0 }];
+
+function listContents() { return contents; }
+function getContent(id) {
+  return contents.find(c =&gt; c.id === Number(id)) || null;
+}
+function createContent(title) {
+  const item = { id: Date.now(), title, status: "unread", progress: 0 };
+  contents.push(item);
+  return item;
+}</pre>
+
+  <h3>Express mini (si dispo)</h3>
+  <pre>app.get("/contents", (req, res) =&gt; res.json(listContents()));
+app.post("/contents", (req, res) =&gt; {
+  if (!req.body.title) return res.status(400).json({ error: "title required" });
+  res.status(201).json(createContent(req.body.title));
+});</pre>
+
+  <h3>MySQL — modèle mental</h3>
+  <pre>contents(id, title, video_url, created_at)
+user_views(user_id, content_id, status, progress, opened_at, completed_at)
+-- PK (user_id, content_id)</pre>
+  <p>☐ Compris contents + user_views</p>
+
+  <h3>Redis — 10 min</h3>
+  <table>
+    <tr><th>Besoin</th><th>Idée</th></tr>
+    <tr><td>Historique recherches</td><td>liste <code>search:user:42</code></td></tr>
+    <tr><td>Tendances</td><td>clé <code>trending</code></td></tr>
+    <tr><td>Ouvertures</td><td><code>INCR content:1:opens</code></td></tr>
+  </table>
+  <p>Phrase type : <em>« Cache tendances/historique dans Redis, états durables en MySQL. »</em></p>
+
+  <h3>WebSocket — 5 min</h3>
+  <p>Connexion ouverte pour sync live (réactions). Commentaire suffisant si pas demandé de coder.</p>
+
+  <h3>Mini-projet Stories Winamax</h3>
+  <div class="box">
+    1) Liste + statut &nbsp; 2) Play → watching + progress &nbsp; 3) 100% → seen<br />
+    4) Filtre non lus &nbsp; 5) Bonus API &nbsp; 6) Bonus compteur ouvertures
+  </div>
+  <p>
+    ☐ Liste &nbsp; ☐ Badge &nbsp; ☐ Progress &nbsp; ☐ Vu &nbsp; ☐ Filtre<br />
+    ☐ Liste vide gérée &nbsp; ☐ Code lisible &nbsp; ☐ Bonus API &nbsp; ☐ Bonus compteur
+  </p>
+  <div class="write">Architecture / composants / state</div>
+
+  <h3>Métriques stage</h3>
+  <table>
+    <tr><th>Métrique</th><th>Sens</th></tr>
+    <tr><td>Ouverture</td><td>contenu ouvert</td></tr>
+    <tr><td>Complétion</td><td>progress 100 / seen</td></tr>
+    <tr><td>Décrochage</td><td>ouvert puis abandon &lt; 100</td></tr>
+  </table>
+
+  <h2>4 — Cas limites</h2>
+  <p>
+    ☐ Liste vide &nbsp; ☐ id inconnu &nbsp; ☐ progress hors 0..100<br />
+    ☐ title vide → 400 &nbsp; ☐ double clic Vu &nbsp; ☐ filtre vide
+  </p>
+  <pre>const p = Math.max(0, Math.min(100, progress));</pre>
+
+  <h2>5 — Jour J Coderpad</h2>
+  <ol>
+    <li>Lis tout l’énoncé</li>
+    <li>Obligatoire vs bonus</li>
+    <li>Version simple d’abord</li>
+    <li>Plan en 3 commentaires</li>
+    <li>Happy path → cas limites → relecture</li>
+  </ol>
+  <pre>// Plan:
+// 1) modèle Content
+// 2) liste + state
+// 3) markSeen / progress
+// 4) filtre
+// 5) bonus API si temps</pre>
+  <p>☐ Lien trouvé &nbsp; ☐ Calme &nbsp; ☐ Pas à 23h le dernier jour &nbsp; ☐ Fiche Partie 1–2–5 à côté</p>
+
+  <h2>6 — Antisèche 10 min avant</h2>
+  <pre>unread → watching → seen
+
+setItems(prev =&gt;
+  prev.map(c =&gt; c.id === id ? { ...c, status: "seen", progress: 100 } : c)
+);
+
+const visible = onlyUnread
+  ? items.filter(c =&gt; c.status === "unread")
+  : items;</pre>
+
+  <h2>7 — Suivi</h2>
+  <table>
+    <tr><th>Jour</th><th>Fait</th><th>/10</th><th>Commentaire</th></tr>
+    <tr><td>J1</td><td>☐</td><td></td><td></td></tr>
+    <tr><td>J2</td><td>☐</td><td></td><td></td></tr>
+    <tr><td>J3</td><td>☐</td><td></td><td></td></tr>
+    <tr><td>Test</td><td>☐</td><td></td><td></td></tr>
+  </table>
+  <div class="write">Après le test : ce qui était demandé / blocages / réussites</div>
+
+  <div class="box">
+    <strong>10 patterns à automatiser :</strong>
+    filter/map · update immuable · useState · liste+key · input contrôlé ·
+    badge status · clamp progress · plan avant code · liste vide · phrase Redis/WS.
+    <br /><br />
+    <strong>3 jours ciblés &gt; 10 jours de tutoriels passifs.</strong> Tu peux le faire.
+  </div>
+
+  <p class="sub" style="margin-top:2rem">
+    Fichier source aussi en Markdown :
+    <code>revision/winamax-coderpad-fiche.md</code><br />
+    Astuce : Cmd+P → “Enregistrer en PDF” pour annoter / lire offline.
+  </p>
+</body>
+</html>
