@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prep entretien BookiBox — Wadjoud</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --accent: #1d4ed8;
+      --box: #f6f6f4;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 820px;
+      padding: 1.25rem 1rem 3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      line-height: 1.55;
+      background: #fff;
+    }
+    h1 { font-size: 1.4rem; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.12rem;
+      margin: 1.75rem 0 .55rem;
+      padding-bottom: .25rem;
+      border-bottom: 2px solid var(--accent);
+      color: var(--accent);
+    }
+    h3 { font-size: 1rem; margin: 1.1rem 0 .35rem; }
+    p, li { color: var(--muted); }
+    .sub { color: var(--muted); margin: 0 0 1rem; font-size: .95rem; }
+    .meta {
+      background: var(--box);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: .85rem 1rem;
+      margin: 0 0 1.25rem;
+      font-size: .92rem;
+    }
+    .pitch, .box {
+      background: var(--box);
+      border-left: 4px solid var(--accent);
+      padding: .85rem 1rem;
+      margin: .6rem 0 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .pitch { font-style: italic; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .9rem;
+      margin: .5rem 0 1rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: .45rem .55rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--box); }
+    ul, ol { padding-left: 1.2rem; }
+    .ok { color: var(--ok); font-weight: 600; }
+    .check li { margin: .35rem 0; }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .85rem;
+      color: #777;
+    }
+    a { color: var(--accent); }
+    @media print {
+      body { max-width: none; padding: .5rem; }
+      h2 { page-break-after: avoid; }
+      .pitch, .box, table { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Prep entretien — BookiBox / BookiMatch</h1>
+  <p class="sub">Wadjoud PHILIPPE · à relire tranquillement avant de dormir</p>
+
+  <div class="meta">
+    <strong>Stage :</strong> consolider BookiMatch (existant) · bugs, perfs, features, APIs, BDD<br />
+    <strong>Dispo :</strong> février 2027 · jusqu’à 6 mois · télétravail France possible<br />
+    <strong>CV :</strong> <a href="https://wadjoud-star.github.io/portfolio/assets/cv-bookibox.pdf">cv-bookibox.pdf</a><br />
+    <strong>Portfolio :</strong> <a href="https://wadjoud-star.github.io/portfolio/">wadjoud-star.github.io/portfolio</a>
+  </div>
+
+  <h2>1. L’entreprise (30 secondes)</h2>
+  <p><strong>BookiBox</strong> = startup lecture jeunesse accessible, responsable, circulaire. Livres d’occasion pour enfants ; aussi écoles, collectivités…</p>
+  <p><strong>BookiMatch</strong> = plateforme interne du cycle de vie des livres :</p>
+  <p>collecte → enrichissement données → stocks → tarification → commandes → redistribution.</p>
+  <p>Le stage = <strong>pas partir de zéro</strong> : faire évoluer un existant déjà avancé.</p>
+  <p>Site : <a href="https://bookibox.fr/">bookibox.fr</a></p>
+
+  <h2>2. Ton pitch d’intro (à apprendre)</h2>
+  <div class="pitch">
+    « Je suis Wadjoud, élève ingénieur en dernière année à l’ESIGELEC.
+    Ce qui m’attire chez BookiBox, c’est le produit à impact — lecture jeunesse circulaire —
+    et le stage très concret : faire évoluer une plateforme déjà en place, corriger des bugs,
+    améliorer les parcours, travailler sur les APIs et la BDD.
+    Sur mes projets j’ai surtout bossé en TypeScript / React / Node et PostgreSQL,
+    et j’aime comprendre un existant, débugger, et livrer des choses utiles à l’équipe.
+    Dispo dès février 2027, jusqu’à 6 mois, télétravail France OK. »
+  </div>
+
+  <h2>3. Ce qu’ils cherchent → ce que tu dis</h2>
+  <table>
+    <thead>
+      <tr><th>Ils veulent</th><th>Tu faces le lien avec</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Comprendre / faire évoluer un existant</td><td>Mon Déménagement + Factis</td></tr>
+      <tr><td>JS / TypeScript, front, APIs, BDD</td><td>Factis, Beniphone</td></tr>
+      <tr><td>Débogage, rigueur, autonomie</td><td>Exemples de bugs / parcours cassés</td></tr>
+      <tr><td>Impact social / écolo</td><td>Pourquoi BookiBox te parle vraiment</td></tr>
+      <tr><td>Next, Nest, Prisma, Redis, Docker</td><td>Honnêteté : React/Node/TS/Postgres/Docker en pratique ; Nest/Prisma/Redis/Next = notions + envie de monter vite</td></tr>
+    </tbody>
+  </table>
+  <div class="box">
+    <strong>Phrase utile :</strong><br />
+    « Je n’ai pas encore tout le stack Nest/Prisma en prod, mais j’ai déjà TypeScript, React, Node, PostgreSQL et Docker — et je monte vite sur un existant. »
+  </div>
+
+  <h2>4. Projets à raconter</h2>
+
+  <h3>A. Factis — meilleur match stack</h3>
+  <ul>
+    <li><strong>Quoi :</strong> app full stack TypeScript / React / API / PostgreSQL</li>
+    <li><strong>Rôle :</strong> features, modèles de données, APIs, Docker / CI</li>
+    <li><strong>Lien BookiMatch :</strong> même logique métier (données + parcours)</li>
+    <li><strong>GitHub :</strong> github.com/Wadjoud-star/factis</li>
+  </ul>
+
+  <h3>B. Mon Déménagement — meilleur match “existant”</h3>
+  <ul>
+    <li><strong>Quoi :</strong> application en production</li>
+    <li><strong>Rôle :</strong> bugs, évolutions, fiabiliser les parcours utilisateurs</li>
+    <li><strong>Lien BookiBox :</strong> pile le stage = consolider, pas inventer</li>
+    <li><strong>GitHub :</strong> github.com/Wadjoud-star/Plateforme-D-m-nagement</li>
+  </ul>
+
+  <h3>C. Beniphone — équipe + APIs</h3>
+  <ul>
+    <li>Front React + back, collab Git, nouvelles fonctionnalités</li>
+    <li><strong>GitHub :</strong> github.com/Wadjoud-star/beniphone</li>
+  </ul>
+
+  <div class="box">
+    Pour chaque projet, structure : <strong>contexte → problème → ce que tu as fait → résultat</strong>.
+  </div>
+
+  <h2>5. Questions tech probables</h2>
+
+  <h3>TypeScript vs JavaScript ?</h3>
+  <p>TS = typage statique → moins d’erreurs, meilleur refactor sur une grosse codebase.</p>
+
+  <h3>API REST ?</h3>
+  <p>Endpoints HTTP (GET / POST / PUT / DELETE), JSON, contrats clairs entre front et back.</p>
+
+  <h3>PostgreSQL / schéma ?</h3>
+  <p>Tables liées (livres, stocks, commandes, clients…). Migrations quand le modèle évolue.</p>
+
+  <h3>Comment tu debug ?</h3>
+  <p>Reproduire → logs / DevTools → isoler (front vs API vs BDD) → fix → retester le parcours.</p>
+
+  <h3>Docker ?</h3>
+  <p>Même environnement local / prod ; app + dépendances packagées.</p>
+
+  <h3>Dilicom / ISBN ?</h3>
+  <div class="box">
+    « Je n’ai pas encore touché Dilicom, mais je comprends l’idée : enrichir les fiches livres via une source biblio externe (ISBN / EAN). J’ai déjà travaillé avec des APIs et des modèles de données. »
+  </div>
+
+  <h2>6. Questions à leur poser (choisis 3–4)</h2>
+  <ol>
+    <li>Sur quoi je travaillerais les 2–3 premières semaines ?</li>
+    <li>La stack BookiMatch aujourd’hui : Nest + Next + Prisma ? Taille de l’équipe tech ?</li>
+    <li>Le plus gros pain point : bugs, stocks, Dilicom, commandes ?</li>
+    <li>Comment se passe le télétravail / le rythme avec l’équipe ops ?</li>
+    <li>Stage plutôt 6 mois ou flexible (2–6) ? Convention / rémunération ?</li>
+  </ol>
+
+  <h2>7. Points sensibles</h2>
+  <ul>
+    <li><strong>Dispo fév. 2027 :</strong> dis-le clairement dès le début si ce n’est pas déjà dit.</li>
+    <li><strong>Nest / Prisma / Redis :</strong> pas de bluff — curiosité + capacité à apprendre.</li>
+    <li><strong>Startup :</strong> autonomie, communication, « je ne bloque pas 3 jours sans demander ».</li>
+  </ul>
+
+  <h2>8. Pourquoi BookiBox (2 phrases)</h2>
+  <div class="pitch">
+    « Le projet a du sens : rendre la lecture jeunesse plus accessible avec des livres d’occasion.
+    Et le stage me correspond : consolider une vraie plateforme, débugger, livrer des features utiles — pas juste du code théorique. »
+  </div>
+
+  <h2>9. Checklist demain</h2>
+  <ul class="check">
+    <li>☐ Relire le pitch 2× à voix haute</li>
+    <li>☐ Avoir portfolio + GitHub Factis / Mon Déménagement sous la main</li>
+    <li>☐ Caméra / micro / silence OK (si visio)</li>
+    <li>☐ Noter 3 questions pour eux</li>
+    <li>☐ Être prêt à dire pourquoi BookiBox en 2 phrases</li>
+  </ul>
+
+  <h2>10. Liens utiles</h2>
+  <ul>
+    <li>CV : <a href="https://wadjoud-star.github.io/portfolio/assets/cv-bookibox.pdf">cv-bookibox.pdf</a></li>
+    <li>Portfolio : <a href="https://wadjoud-star.github.io/portfolio/">portfolio</a></li>
+    <li>Factis : <a href="https://github.com/Wadjoud-star/factis">github.com/Wadjoud-star/factis</a></li>
+    <li>Mon Déménagement : <a href="https://github.com/Wadjoud-star/Plateforme-D-m-nagement">Plateforme-D-m-nagement</a></li>
+    <li>Beniphone : <a href="https://github.com/Wadjoud-star/beniphone">beniphone</a></li>
+    <li>BookiBox : <a href="https://bookibox.fr/">bookibox.fr</a></li>
+  </ul>
+
+  <p class="footer">
+    Fiche prep BookiBox · lit-toi le pitch, dors tranquille · tu es prêt.
+  </p>
+</body>
+</html>
