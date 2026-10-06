@@ -174,12 +174,12 @@ def main():
 
     pdf.section("Profil")
     pdf.para(
-        "Élève ingénieur bac+5 à l'ESIGELEC (Rouen), passionné de développement web "
-        "et motivé par l'IA appliquée (LLM, intégration d'API, automatisation). "
-        "Pratique Java, Spring (formation), React, Node.js, Angular (formation), "
-        "Vue (notions), MySQL et AWS (bases). J'aime apprendre vite, livrer du concret "
-        "et travailler en équipe. Objectif : stage puis embauche en CDI. "
-        "Disponible à partir de février 2027, mobile sur Arcueil-Cachan."
+        "Élève ingénieur en dernière année à l'ESIGELEC (Rouen). J'aime construire "
+        "des applications web, et j'ai envie d'aller plus loin : coder proprement, "
+        "et utiliser l'IA au quotidien (API, automatisation), pas juste à côté. "
+        "Java et Spring en formation, React et Node.js sur des projets que j'ai livrés. "
+        "Curieux, je pose des questions, et j'aime bosser en équipe. "
+        "Dispo dès février 2027 à Arcueil-Cachan, avec l'envie de rester en CDI si ça matche."
     )
 
     pdf.section("Compétences techniques")
@@ -282,7 +282,11 @@ def main():
     )
     pdf.labeled(
         "Ce qui m'intéresse chez Oxyl",
-        "Mission Padawan  ·  Java/Spring + React/Vue/Angular  ·  IA appliquée  ·  formation 12 sem.  ·  CDI",
+        "J'ai envie d'apprendre le métier pour de vrai : d'abord une formation, "
+        "ensuite le terrain avec quelqu'un de plus expérimenté. Ce qui me motive, "
+        "c'est de devenir solide en Java / Spring et en front (React, Vue, Angular), "
+        "tout en utilisant l'IA dans le travail de tous les jours. "
+        "Si le stage se passe bien, je veux continuer en CDI.",
     )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
