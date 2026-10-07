@@ -177,7 +177,7 @@ def main():
         "les données pour que tout le monde parte de la même source. JavaScript et HTML, "
         "je les pratique. Google Sheets et Apps Script, je les prends en main vite : "
         "c'est du JavaScript appliqué à des tableaux. Autonome, à l'aise pour parler "
-        "avec des métiers très différents. Français courant, anglais avancé à l'écrit. "
+        "avec des métiers très différents. Français courant, anglais courant à l'écrit (B2). "
         "Dispo 6 mois dès février 2027, mobile sur Marignane."
     )
 
@@ -198,7 +198,7 @@ def main():
             ),
             (
                 "Relationnel",
-                "Aller au contact des métiers, esprit logique, autonomie, anglais avancé",
+                "Aller au contact des métiers, esprit logique, autonomie, anglais courant à l'écrit",
             ),
         ]
     )
@@ -265,7 +265,7 @@ def main():
     )
     pdf.labeled(
         "Langues",
-        "Français : courant  ·  Anglais : avancé à l'écrit (docs, échanges, specs)",
+        "Français : courant  ·  Anglais : courant à l'écrit (B2 — docs, échanges, specs)",
     )
     pdf.labeled(
         "Portfolio",
