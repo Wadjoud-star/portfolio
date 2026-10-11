@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entretien téléphonique Cream Consulting — Wadjoud</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --accent: #1d4ed8;
+      --box: #f6f6f4;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 820px;
+      padding: 1.25rem 1rem 3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      line-height: 1.55;
+      background: #fff;
+    }
+    h1 { font-size: 1.4rem; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.12rem;
+      margin: 1.75rem 0 .55rem;
+      padding-bottom: .25rem;
+      border-bottom: 2px solid var(--accent);
+      color: var(--accent);
+    }
+    h3 { font-size: 1rem; margin: 1.15rem 0 .35rem; }
+    p, li { color: var(--muted); }
+    .sub { color: var(--muted); margin: 0 0 1rem; font-size: .95rem; }
+    .meta {
+      background: var(--box);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: .85rem 1rem;
+      margin: 0 0 1.25rem;
+      font-size: .92rem;
+    }
+    .pitch, .box, .say {
+      background: var(--box);
+      border-left: 4px solid var(--accent);
+      padding: .85rem 1rem;
+      margin: .45rem 0 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .pitch { font-style: italic; }
+    .say strong { color: var(--ok); font-style: normal; }
+    ul, ol { padding-left: 1.2rem; }
+    .ok { color: var(--ok); font-weight: 600; }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .85rem;
+      color: #777;
+    }
+    a { color: var(--accent); }
+    @media print {
+      body { max-width: none; padding: .5rem; }
+      h2, h3 { page-break-after: avoid; }
+      .pitch, .box, .say { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Entretien téléphonique — Cream Consulting</h1>
+  <p class="sub">15 à 20 minutes · demain matin · réponses à dire, puis tu t’arrêtes</p>
+
+  <div class="meta">
+    <strong>Entreprise :</strong> Cream Consulting, entité belge d’Audensiel. Devient Audensiel Belgium en janvier 2027.<br />
+    <strong>Stage :</strong> équipe IT, modernisation du CRM interne (commercial + recrutement).<br />
+    <strong>Sujets :</strong> Java 8 → 17, Elasticsearch, perfs et maintenabilité, React / TypeScript / JavaScript.<br />
+    <strong>Toi :</strong> ESIGELEC Rouen, dernière année · 6 mois dès février 2027.<br />
+    <strong>CV :</strong> <a href="https://wadjoud-star.github.io/portfolio/assets/cv-cream-consulting.pdf">cv-cream-consulting.pdf</a><br />
+    <strong>Portfolio :</strong> <a href="https://wadjoud-star.github.io/portfolio/">wadjoud-star.github.io/portfolio</a>
+  </div>
+
+  <div class="box">
+    Un appel de 20 minutes, c’est 5 ou 6 questions. Tu réponds en 30 à 45 secondes. Tu ne récites pas le CV. Si tu ne sais pas, tu le dis, et tu dis comment tu t’y prends.
+  </div>
+
+  <h2>1. Pitch — s’ils disent « présente-toi »</h2>
+  <div class="pitch">
+    « Je suis Wadjoud Philippe, élève ingénieur en dernière année à l’ESIGELEC, à Rouen.
+    Je cherche un stage de fin d’études de 6 mois à partir de février 2027.
+    Ce qui m’a accroché chez vous, c’est le CRM : un outil déjà utilisé tous les jours, qu’il faut moderniser.
+    Monter Java, retravailler la recherche, et continuer le front en React.
+    Côté code, j’ai du Java sur un projet d’équipe en Scrum, et du TypeScript / React sur des applis web.
+    Je suis mobile pour la Belgique. »
+  </div>
+
+  <h2>2. Les questions, et ce que tu réponds</h2>
+
+  <h3>Pourquoi Cream, pourquoi ce stage ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Vous devenez Audensiel Belgium en janvier 2027, juste avant mon stage. Le sujet, lui, est très concret : votre CRM sert aux équipes business pour le commercial et le recrutement. Je préfère travailler sur un outil déjà en vie, plutôt que sur une démo. La montée Java 8 vers 17, la recherche, et le front React, c’est un vrai cycle de modernisation. C’est ça que je veux faire pendant 6 mois. »
+  </div>
+
+  <h3>Parle-moi d’un projet.</h3>
+  <p>Tu n’en racontes qu’un. S’ils demandent un deuxième, tu passes à Factis.</p>
+  <div class="say">
+    <strong>Club Sport, en premier :</strong>
+    « Club Sport, c’est une appli web en Java, JSP et MySQL, avec plusieurs rôles. On l’a faite en Scrum : des sprints, Git, on livrait au fur et à mesure. Je l’ai aussi mise dans Docker. C’est le projet le plus proche de votre offre : du Java, en équipe, sur une appli qu’on fait évoluer. »
+  </div>
+  <div class="say">
+    <strong>Factis, si ils insistent :</strong>
+    « Factis, c’est une appli de facturation en Next.js et TypeScript, donc du React, avec PostgreSQL. J’ai fait l’interface et les APIs. Sur le CV j’ai écrit React / TypeScript : Next.js, c’est ça. »
+  </div>
+
+  <h3>Tu as déjà migré du Java 8 vers Java 17 ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Non, pas sur une appli en production. Je code en Java, je connais l’objectif : changer de JDK, voir ce qui casse dans le code et dans les dépendances, faire passer les tests, avancer par étapes. Je ne vais pas prétendre que je l’ai déjà fait. C’est précisément ce que je veux apprendre sur votre CRM, parce qu’il est déjà utilisé. »
+  </div>
+
+  <h3>Et Elasticsearch ? MongoDB ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Elasticsearch, j’en ai le principe : un index de recherche, pas une base SQL. Je n’ai pas encore réécrit de composants de recherche en prod. En bases, je suis solide sur MySQL et PostgreSQL. MongoDB, ce sont des notions. La mise à niveau Elasticsearch, je la ferais avec l’équipe, en comprenant d’abord ce que la recherche doit renvoyer aux utilisateurs du CRM. »
+  </div>
+
+  <h3>React et TypeScript, c’est quoi ton niveau ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je les utilise sur mes projets. Factis est en TypeScript. Beniphone, c’est du React et Node : des parcours utilisateur, des écrans, des APIs. Je suis à l’aise pour modifier un front existant et brancher une API. Je ne me présente pas comme expert React. Je suis opérationnel pour développer et faire évoluer des écrans. »
+  </div>
+
+  <h3>Tu travailles comment en équipe ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Sur Club Sport, on était en Scrum. On découpait le travail, on poussait sur Git, on se montrait ce qui était fini. J’aime qu’on se parle tôt quand quelque chose bloque, plutôt que de rester seul dessus. Je suis autonome une fois que le besoin est clair. »
+  </div>
+
+  <h3>Ton anglais ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je lis et j’écris l’anglais technique sans problème : docs, specs, messages. À l’oral je me débrouille, ce n’est pas ma langue de tous les jours. Si l’équipe mélange français et anglais, ça me va. »
+  </div>
+
+  <h3>Tu es disponible quand, et tu viens en Belgique ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Stage de fin d’études, 6 mois, à partir de février 2027, avec une convention ESIGELEC. Je suis à Rouen aujourd’hui, et je suis mobile pour venir en Belgique sur la durée du stage. La ville et le rythme sur site, je préfère les caler avec vous. »
+  </div>
+
+  <h3>Une qualité, et un point que tu n’as pas encore ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je suis rigoureux sur un existant : je cherche à comprendre avant de modifier. Le point honnête, c’est la migration Java 8 vers 17 et Elasticsearch. Je ne les ai pas faits en conditions réelles. Je les apprends sur votre CRM, pas sur un exercice. »
+  </div>
+
+  <h2>3. S’ils posent une question technique</h2>
+  <p>Ça reste court. Tu n’ouvres pas un cours.</p>
+  <div class="say">
+    <strong>Comment tu commencerais la migration ?</strong><br />
+    « Je regarde d’abord la version actuelle, les dépendances, et ce qui est testé. Ensuite je monte le JDK sur une branche, je lance les tests, et je corrige ce qui casse, par petits lots. Je ne réécris pas tout le CRM d’un coup. »
+  </div>
+  <div class="say">
+    <strong>C’est quoi une API REST, pour toi ?</strong><br />
+    « Une façon d’exposer des actions en HTTP : lire, créer, modifier, supprimer, avec des URLs claires et du JSON. Sur Factis et Beniphone, le front appelle ce genre d’API. »
+  </div>
+  <div class="say">
+    <strong>Comment tu améliores les perfs sans tout casser ?</strong><br />
+    « Je mesure d’abord. Une page lente ou une recherche lente, je regarde où le temps part, avant de réécrire. Ensuite je change le plus petit morceau possible, et je revérifie. »
+  </div>
+
+  <h2>4. Deux questions à leur poser</h2>
+  <p>Tu n’en poses qu’une ou deux, à la fin. Pas plus.</p>
+  <ol>
+    <li>« Le stage se passe sur site en Belgique ? Dans quelle ville, et à quel rythme ? »</li>
+    <li>« Sur les 6 mois, je serais plutôt sur la montée Java, sur Elasticsearch, ou sur les deux en même temps ? »</li>
+  </ol>
+  <p>S’il reste 20 secondes : « Après cet appel, la suite du processus, c’est quoi ? »</p>
+
+  <h2>5. Juste avant de décrocher</h2>
+  <ul>
+    <li>Endroit calme, CV ouvert, portfolio ouvert au cas où.</li>
+    <li>Tu souris en parlant. Sur un appel, ça s’entend.</li>
+    <li>Tu réponds, puis tu te tais. Tu ne remplis pas le silence.</li>
+    <li>Spring : formation à l’école, pas le cœur de Club Sport. Club Sport = Java, JSP, MySQL, Docker, Scrum.</li>
+    <li>Tu ne dis pas que tu maîtrises Elasticsearch, MongoDB, ou une migration Java 17.</li>
+    <li>À la fin : « Merci pour l’échange. Je suis disponible pour la suite. »</li>
+  </ul>
+
+  <p class="footer">Fiche perso · Cream Consulting · entretien téléphonique 15–20 min · Wadjoud PHILIPPE</p>
+</body>
+</html>
