@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entretien SNCF Réseau — Wadjoud</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --accent: #1d4ed8;
+      --box: #f6f6f4;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 820px;
+      padding: 1.25rem 1rem 3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      line-height: 1.55;
+      background: #fff;
+    }
+    h1 { font-size: 1.4rem; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.12rem;
+      margin: 1.75rem 0 .55rem;
+      padding-bottom: .25rem;
+      border-bottom: 2px solid var(--accent);
+      color: var(--accent);
+    }
+    h3 { font-size: 1rem; margin: 1.15rem 0 .35rem; }
+    p, li { color: var(--muted); }
+    .sub { color: var(--muted); margin: 0 0 1rem; font-size: .95rem; }
+    .meta {
+      background: var(--box);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: .85rem 1rem;
+      margin: 0 0 1.25rem;
+      font-size: .92rem;
+    }
+    .pitch, .box, .say {
+      background: var(--box);
+      border-left: 4px solid var(--accent);
+      padding: .85rem 1rem;
+      margin: .45rem 0 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .pitch { font-style: italic; }
+    .say strong { color: var(--ok); font-style: normal; }
+    ul, ol { padding-left: 1.2rem; }
+    .ok { color: var(--ok); font-weight: 600; }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .85rem;
+      color: #777;
+    }
+    a { color: var(--accent); }
+    @media print {
+      body { max-width: none; padding: .5rem; }
+      h2, h3 { page-break-after: avoid; }
+      .pitch, .box, .say { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Entretien — SNCF Réseau, signalisation</h1>
+  <p class="sub">Mardi · 1 heure · Teams · 4 personnes · réponses à dire, puis tu t’arrêtes</p>
+
+  <div class="meta">
+    <strong>Contact :</strong> Rémi Neveu, SNCF Réseau.<br />
+    <strong>Stage :</strong> 6 mois, début entre janvier et avril 2027. Déployer un logiciel de signalisation (système expert) jusqu’à des utilisateurs formés.<br />
+    <strong>Régions de l’offre :</strong> 1. Normandie (Rouen ou Caen) · 2. Paris · 3. Lille · 4. Strasbourg.<br />
+    <strong>Ton mail :</strong> tu as déjà dit que tu ne connais pas la signalisation, et que la Normandie passe en premier.<br />
+    <strong>CV :</strong> <a href="https://wadjoud-star.github.io/portfolio/assets/cv-sncf-reseau.pdf">cv-sncf-reseau.pdf</a>
+  </div>
+
+  <h2>1. Comment occuper l’heure</h2>
+  <div class="box">
+    Quatre personnes, une heure. Chacun pose une ou deux questions. Tu réponds en 45 secondes à 1 minute, tu regardes celui qui a parlé, puis tu te tais. Tu ne fais pas un exposé. Tu vouvoies.
+  </div>
+  <ul>
+    <li>0–5 min : bonjour, pitch.</li>
+    <li>5–45 min : pourquoi ce stage, comment tu travailles, un projet, les sites.</li>
+    <li>45–60 min : tes questions, puis la suite du processus.</li>
+  </ul>
+  <p>La signature de Rémi indique la direction Sud-Est. L’offre que tu as envoyée porte sur les 4 régions. Tu ne devines pas. Tu demandes quel site ils te proposent.</p>
+
+  <h2>2. Pitch — s’ils disent « présentez-vous »</h2>
+  <div class="pitch">
+    « Je suis Wadjoud Philippe, élève ingénieur en dernière année à l’ESIGELEC, à Rouen.
+    Je cherche un stage de 6 mois, avec un début entre janvier et avril 2027.
+    Ce qui m’a accroché, c’est que le stage va jusqu’au bout : lire les documents,
+    vérifier que la base est juste, tester des situations de travaux, puis former
+    les ingénieurs qui s’en servent. La signalisation, je ne la connais pas encore.
+    Je suis prêt à l’apprendre sur vos documents. La Normandie d’abord, parce que j’y suis déjà. »
+  </div>
+
+  <h2>3. Les questions, et ce que tu réponds</h2>
+
+  <h3>Pourquoi ce stage, pourquoi SNCF Réseau ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Le logiciel doit devenir opérationnel, avec des gens formés, en partant des documents du terrain. J’aime ce cadre : un métier que je ne connais pas, des bases à vérifier, puis des utilisateurs. Ce n’est pas un exercice. Les ingénieurs qui font encore ces études à la main doivent pouvoir s’en servir. »
+  </div>
+
+  <h3>Vous savez ce qu’est la signalisation ferroviaire ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Non. Je ne vais pas faire semblant. Ce que j’ai compris de l’offre : c’est le système qui encadre les circulations et les travaux sur le réseau, et aujourd’hui une partie des études se fait encore à la main. Vous formez les stagiaires à la lecture des documents et aux principes. C’est comme ça que je veux l’apprendre, pas dans un article la veille. »
+  </div>
+
+  <h3>Comment vous vérifiez qu’une base est juste ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je pars du document, pas de la base. Je relève ce que le document dit, je le compare à ce qui est déjà saisi, et je note les écarts. Ensuite je construis quelques situations de travaux pour voir si la base réagit comme le terrain. Si je ne comprends pas un terme, je demande à la personne qui fait l’étude, je ne devine pas. »
+  </div>
+
+  <h3>Former une soixantaine d’ingénieurs, vous voyez ça comment ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Pas un long cours. D’abord les utiliser moi-même sur des cas réels, ensuite une session courte : à quoi sert l’outil, un parcours qu’ils referont seuls, et où trouver de l’aide après. Je récupère leurs questions et je corrige la base ou la façon d’expliquer. En Île-de-France, l’offre dit qu’on ne forme qu’une partie, selon l’avancement des bases. Je suivrais ça. »
+  </div>
+
+  <h3>Parlez-nous d’un projet.</h3>
+  <p>Un seul. S’ils en veulent un deuxième, tu passes à Club Sport.</p>
+  <div class="say">
+    <strong>Mon Déménagement, en premier :</strong>
+    « C’est un outil déjà en ligne. J’ai fait évoluer l’existant et j’ai expliqué les changements à des gens qui ne codent pas. C’est le plus proche de votre stage : comprendre l’usage, modifier, puis faire prendre en main. »
+  </div>
+  <div class="say">
+    <strong>Club Sport, si ils insistent :</strong>
+    « Une appli en équipe, en Scrum. On découpait, on se montrait ce qui était fini, on livrait par étapes. Java, MySQL, Docker. »
+  </div>
+
+  <h3>Vous êtes plutôt développeur. Ici, on code peu. Ça vous va ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui. Je sais coder, et ce n’est pas ce que je viens chercher en premier. Je viens pour le déploiement : documents, bases, tests, formation. Si à la fin il reste un module ou un algorithme à améliorer, je peux m’y mettre. Ce n’est pas ma condition pour prendre le stage. »
+  </div>
+
+  <h3>Vous classez les sites comment ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « 1. Normandie, Rouen ou Caen, parce que je suis déjà à l’ESIGELEC à Rouen. 2. Paris. 3. Lille. 4. Strasbourg. Je suis mobile sur les quatre. Je préfère qu’on me dise quel périmètre vous avez en tête, y compris si ce n’est pas une de ces quatre régions. »
+  </div>
+
+  <h3>Vous démarrez quand ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Six mois, début entre janvier et avril 2027, avec une convention ESIGELEC. Février est le plus simple pour l’école. Janvier ou mars, je peux le recaler si vous avez une date. »
+  </div>
+
+  <h3>Vous bloquez sur un document que vous ne comprenez pas. Vous faites quoi ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je note précisément ce que je ne comprends pas, je cherche dans les documents déjà lus, et si ce n’est pas dedans j’appelle la personne du métier. Je n’invente pas une règle de signalisation pour avancer plus vite. »
+  </div>
+
+  <h2>4. Deux questions à poser, à la fin</h2>
+  <p>Pas plus de deux. Tu les poses à tout le monde, pas à une seule personne.</p>
+  <ol>
+    <li>« Chacun de vous couvre quelle région, et le stage que vous envisagez pour moi est sur quel site ? »</li>
+    <li>« Les deux premiers mois, c’est surtout la lecture des documents et la vérification des bases, ou la formation démarre tout de suite ? »</li>
+  </ol>
+  <p>S’il reste une minute : « Après cet échange, la suite pour vous, c’est quoi ? »</p>
+
+  <h2>5. Juste avant Teams</h2>
+  <ul>
+    <li>Endroit calme, CV ouvert, caméra à hauteur des yeux, tu regardes la caméra quand tu parles.</li>
+    <li>Tu notes les quatre prénoms au début. Tu réponds à celui qui a posé la question.</li>
+    <li>Tu ne récites pas la signalisation. Tu n’as pas à connaître les termes techniques mardi.</li>
+    <li>Tu ne dis pas que tu veux « améliorer les algorithmes » comme mission principale.</li>
+    <li>Tu ne changes pas l’ordre des sites par rapport au mail, sauf s’ils te proposent un site précis et que tu l’acceptes.</li>
+    <li>À la fin : « Merci pour l’échange. Je suis disponible pour la suite. »</li>
+  </ul>
+
+  <p class="footer">Fiche perso · SNCF Réseau · entretien 1 h · 4 personnes · Wadjoud PHILIPPE</p>
+</body>
+</html>
