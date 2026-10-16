@@ -31,7 +31,7 @@
       border-bottom: 2px solid var(--accent);
       color: var(--accent);
     }
-    h3 { font-size: 1rem; margin: 1.15rem 0 .35rem; }
+    h3 { font-size: 1rem; margin: 1.25rem 0 .35rem; color: var(--ink); }
     p, li { color: var(--muted); }
     .sub { color: var(--muted); margin: 0 0 1rem; font-size: .95rem; }
     .meta {
@@ -50,9 +50,8 @@
       border-radius: 0 8px 8px 0;
     }
     .pitch { font-style: italic; }
-    .say strong { color: var(--ok); font-style: normal; }
+    .say strong { color: var(--ok); font-style: normal; display: block; margin-bottom: .35rem; }
     ul, ol { padding-left: 1.2rem; }
-    .ok { color: var(--ok); font-weight: 600; }
     .footer {
       margin-top: 2rem;
       padding-top: 1rem;
@@ -69,115 +68,346 @@
   </style>
 </head>
 <body>
-  <h1>Entretien — SNCF Réseau, signalisation</h1>
-  <p class="sub">Mardi · 1 heure · Teams · 4 personnes · réponses à dire, puis tu t’arrêtes</p>
+  <h1>Entretien SNCF Réseau — signalisation</h1>
+  <p class="sub">Mardi · 1 heure · Teams · 4 personnes · à relire à voix haute, une fois</p>
 
   <div class="meta">
-    <strong>Contact :</strong> Rémi Neveu, SNCF Réseau.<br />
-    <strong>Stage :</strong> 6 mois, début entre janvier et avril 2027. Déployer un logiciel de signalisation (système expert) jusqu’à des utilisateurs formés.<br />
-    <strong>Régions de l’offre :</strong> 1. Normandie (Rouen ou Caen) · 2. Paris · 3. Lille · 4. Strasbourg.<br />
-    <strong>Ton mail :</strong> tu as déjà dit que tu ne connais pas la signalisation, et que la Normandie passe en premier.<br />
+    <strong>Contact :</strong> Rémi Neveu · remi.neveu@reseau.sncf.fr<br />
+    <strong>Stage :</strong> 6 mois · début janv.–avr. 2027 · déployer un logiciel de signalisation jusqu’à des utilisateurs formés<br />
+    <strong>Tes sites :</strong> 1. Normandie (Rouen ou Caen) · 2. Paris · 3. Lille · 4. Strasbourg<br />
     <strong>CV :</strong> <a href="https://wadjoud-star.github.io/portfolio/assets/cv-sncf-reseau.pdf">cv-sncf-reseau.pdf</a>
   </div>
 
-  <h2>1. Comment occuper l’heure</h2>
   <div class="box">
-    Quatre personnes, une heure. Chacun pose une ou deux questions. Tu réponds en 45 secondes à 1 minute, tu regardes celui qui a parlé, puis tu te tais. Tu ne fais pas un exposé. Tu vouvoies.
+    Quatre personnes, une heure. Chacun pose une ou deux questions. Tu réponds comme tu parles, pas comme un CV. Tu regardes celui qui a posé la question. Si tu ne sais pas, tu le dis. Tu vouvoies.
   </div>
-  <ul>
-    <li>0–5 min : bonjour, pitch.</li>
-    <li>5–45 min : pourquoi ce stage, comment tu travailles, un projet, les sites.</li>
-    <li>45–60 min : tes questions, puis la suite du processus.</li>
-  </ul>
-  <p>La signature de Rémi indique la direction Sud-Est. L’offre que tu as envoyée porte sur les 4 régions. Tu ne devines pas. Tu demandes quel site ils te proposent.</p>
 
-  <h2>2. Pitch — s’ils disent « présentez-vous »</h2>
+  <h2>1. Pitch</h2>
   <div class="pitch">
-    « Je suis Wadjoud Philippe, élève ingénieur en dernière année à l’ESIGELEC, à Rouen.
+    « Je m’appelle Wadjoud Philippe, je suis en dernière année à l’ESIGELEC, à Rouen.
     Je cherche un stage de 6 mois, avec un début entre janvier et avril 2027.
-    Ce qui m’a accroché, c’est que le stage va jusqu’au bout : lire les documents,
-    vérifier que la base est juste, tester des situations de travaux, puis former
-    les ingénieurs qui s’en servent. La signalisation, je ne la connais pas encore.
-    Je suis prêt à l’apprendre sur vos documents. La Normandie d’abord, parce que j’y suis déjà. »
+    Votre offre m’a parlé parce que le stage ne s’arrête pas au code : on lit les documents,
+    on vérifie que la base dit la même chose, on teste des situations de travaux,
+    et on forme les ingénieurs qui s’en servent. La signalisation, je ne la connais pas.
+    Je suis prêt à l’apprendre avec vous, sur vos documents. Et la Normandie d’abord,
+    parce que j’y suis déjà. »
   </div>
 
-  <h2>3. Les questions, et ce que tu réponds</h2>
+  <h2>2. Motivation &amp; compréhension du stage</h2>
 
-  <h3>Pourquoi ce stage, pourquoi SNCF Réseau ?</h3>
+  <h3>Pourquoi SNCF Réseau ? Pourquoi ce stage ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Le logiciel doit devenir opérationnel, avec des gens formés, en partant des documents du terrain. J’aime ce cadre : un métier que je ne connais pas, des bases à vérifier, puis des utilisateurs. Ce n’est pas un exercice. Les ingénieurs qui font encore ces études à la main doivent pouvoir s’en servir. »
+    « Parce que ça part d’une feuille blanche sur une région, et ça doit arriver à un logiciel vraiment utilisé. Pas une démo. Les ingénieurs font encore une partie de ces études à la main. Moi, ce qui me plaît, c’est d’aller jusqu’à eux : comprendre comment ils travaillent, leur laisser un outil fiable, et les former. »
   </div>
+
+  <h3>Qu’avez-vous compris de la mission ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Vous déployez un logiciel de signalisation, un système expert, sur plusieurs régions. Le stagiaire apprend à lire les documents SNCF, il vérifie et corrige les bases dont le logiciel a besoin, il teste des cas réels, et il forme les utilisateurs. La programmation, c’est seulement si on a le temps et l’envie, pour améliorer un module. »
+  </div>
+
+  <h3>Pourquoi pas un stage purement développeur ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je sais coder, et j’en fais. Mais là, le cœur du stage, c’est autre chose : comprendre un métier, mettre de l’ordre dans des données, et faire prendre en main un outil. C’est ça qui me motive. Si à la fin il reste un module à améliorer, je peux m’y mettre. Ce n’est pas ma condition pour venir. »
+  </div>
+
+  <h3>Qu’est-ce qui vous intéresse dans le ferroviaire ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Le réseau ferré, c’est concret. Des travaux, des indisponibilités, des décisions qui touchent la circulation. Je ne connais pas encore la signalisation, mais j’aime les sujets où une erreur dans une base a un vrai impact. Ça force à être précis. »
+  </div>
+
+  <h3>Vous avez d’autres candidatures ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui, comme tout le monde en dernière année. Je candidate sur des stages de fin d’études. Celui-ci m’intéresse vraiment, parce qu’il mélange analyse, données et formation, et que la Normandie me convient. »
+  </div>
+
+  <h2>3. Signalisation &amp; métier (tu n’es pas censé tout savoir)</h2>
 
   <h3>Vous savez ce qu’est la signalisation ferroviaire ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Non. Je ne vais pas faire semblant. Ce que j’ai compris de l’offre : c’est le système qui encadre les circulations et les travaux sur le réseau, et aujourd’hui une partie des études se fait encore à la main. Vous formez les stagiaires à la lecture des documents et aux principes. C’est comme ça que je veux l’apprendre, pas dans un article la veille. »
+    « Non, pas vraiment. Je ne vais pas inventer. Ce que j’ai compris : c’est ce qui encadre les circulations et les travaux sur le réseau, et une partie des études se fait encore à la main. Vous formez les stagiaires à la lecture des documents. C’est comme ça que je veux l’apprendre. »
   </div>
 
-  <h3>Comment vous vérifiez qu’une base est juste ?</h3>
+  <h3>C’est quoi un système expert, pour vous ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Je pars du document, pas de la base. Je relève ce que le document dit, je le compare à ce qui est déjà saisi, et je note les écarts. Ensuite je construis quelques situations de travaux pour voir si la base réagit comme le terrain. Si je ne comprends pas un terme, je demande à la personne qui fait l’étude, je ne devine pas. »
+    « Un logiciel qui permet de raisonner avec des règles et des données métier, pour aider des décisions qu’un expert ferait autrement à la main. Ici, ça s’appuie sur des bases qu’il faut construire et vérifier correctement. »
   </div>
 
-  <h3>Former une soixantaine d’ingénieurs, vous voyez ça comment ?</h3>
+  <h3>Vous avez déjà travaillé dans le ferroviaire ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Pas un long cours. D’abord les utiliser moi-même sur des cas réels, ensuite une session courte : à quoi sert l’outil, un parcours qu’ils referont seuls, et où trouver de l’aide après. Je récupère leurs questions et je corrige la base ou la façon d’expliquer. En Île-de-France, l’offre dit qu’on ne forme qu’une partie, selon l’avancement des bases. Je suivrais ça. »
+    « Non. Je n’ai pas d’expérience ferroviaire. Ce que j’apporte, c’est la capacité à lire des documents techniques, à vérifier des données, et à expliquer un outil à des gens qui ont un autre métier que moi. »
   </div>
+
+  <h3>Comment vous apprenez un domaine que vous ne connaissez pas ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je commence par les documents, je note le vocabulaire, et je vérifie ce que j’ai compris avec quelqu’un du métier. Je ne reste pas bloqué seul pendant trois jours. Si un terme n’est pas clair, je demande. »
+  </div>
+
+  <h2>4. Données, bases, tests</h2>
+
+  <h3>Comment vérifiez-vous qu’une base est juste ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je pars du document, pas de la base. Je regarde ce que le document dit, je le compare à ce qui est déjà saisi, et je note les écarts. Ensuite je teste quelques situations concrètes, pour voir si le logiciel réagit comme on s’y attend. Si je ne suis pas sûr, je demande avant de corriger. »
+  </div>
+
+  <h3>Vous trouvez une incohérence. Vous faites quoi ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je la documente : le document source, ce que dit la base, et pourquoi ça ne colle pas. Ensuite je valide avec quelqu’un qui connaît le sujet, avant de modifier. Je ne corrige pas à l’aveugle. »
+  </div>
+
+  <h3>Comment concevez-vous des tests ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je prends des cas que les équipes rencontrent vraiment : une situation de travaux, une indisponibilité, un cas limite. Je note le résultat attendu, je lance le test, et je regarde si la base tient. Si ça casse, je comprends pourquoi avant de retoucher. »
+  </div>
+
+  <h3>Vous n’êtes pas à l’aise avec SQL / bases. Ça pose problème ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je pratique le SQL sur mes projets, MySQL et PostgreSQL. Ici, le gros du travail, c’est l’analyse et la conversion d’information, pas la saisie. Je suis à l’aise pour comparer, vérifier, et structurer. Si votre outil a une façon particulière de ranger les données, je m’y forme. »
+  </div>
+
+  <h3>Vous devez traiter beaucoup de documents. Comment vous organisez ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je classe par type et par priorité. Je commence par ce qui bloque le plus les utilisateurs. Je note ce que j’ai lu, ce qui est validé, et ce qui reste ouvert. Sinon on se perd vite. »
+  </div>
+
+  <h2>5. Formation &amp; relationnel</h2>
+
+  <h3>Former 60 ingénieurs, vous voyez ça comment ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Pas un long cours. D’abord, je l’utilise moi-même sur des cas réels. Ensuite, une session courte : à quoi ça sert, un parcours qu’ils peuvent refaire seuls, et où trouver de l’aide après. Je récupère leurs questions, et je corrige soit la base, soit la façon d’expliquer. »
+  </div>
+
+  <h3>Et en Île-de-France, avec beaucoup plus de monde ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « L’offre dit qu’on ne forme qu’une partie, selon l’avancement des bases. Je suivrais ça. On ne forme pas 300 personnes d’un coup si la base n’est pas prête. »
+  </div>
+
+  <h3>Comment expliquez-vous un outil à quelqu’un qui ne code pas ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je pars de son travail, pas du logiciel. Qu’est-ce qu’il cherche ? Ensuite je lui montre le chemin le plus court pour y arriver. J’évite le jargon. Sur Mon Déménagement, j’ai déjà dû expliquer des changements à des utilisateurs qui n’avaient pas mon métier. »
+  </div>
+
+  <h3>Un utilisateur n’est pas convaincu. Vous faites quoi ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je lui demande ce qui le gêne concrètement. Souvent, c’est un cas qu’on a mal couvert, ou une explication trop rapide. Je note, je corrige si besoin, et je reviens vers lui. Je ne force pas. »
+  </div>
+
+  <h3>Vous devez aller voir Production, Planning, Bureau d’études… Ça vous va ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui. J’aime aller chercher l’info auprès des gens qui s’en servent. Chacun a sa façon de travailler. Si je reste seul derrière l’écran, je vais construire un truc juste sur le papier, pas sur le terrain. »
+  </div>
+
+  <h2>6. Projets &amp; parcours</h2>
 
   <h3>Parlez-nous d’un projet.</h3>
-  <p>Un seul. S’ils en veulent un deuxième, tu passes à Club Sport.</p>
   <div class="say">
-    <strong>Mon Déménagement, en premier :</strong>
-    « C’est un outil déjà en ligne. J’ai fait évoluer l’existant et j’ai expliqué les changements à des gens qui ne codent pas. C’est le plus proche de votre stage : comprendre l’usage, modifier, puis faire prendre en main. »
+    <strong>Mon Déménagement :</strong>
+    « C’est un outil déjà en ligne. Je l’ai fait évoluer, et j’ai expliqué les changements à des gens qui l’utilisent. C’est le plus proche de votre stage : un existant, des utilisateurs, et la prise en main. »
   </div>
   <div class="say">
-    <strong>Club Sport, si ils insistent :</strong>
-    « Une appli en équipe, en Scrum. On découpait, on se montrait ce qui était fini, on livrait par étapes. Java, MySQL, Docker. »
+    <strong>Si on demande un deuxième — Club Sport :</strong>
+    « Une appli faite en équipe, en Scrum. On découpait le travail, on se montrait ce qui était fini, on livrait par étapes. Java, MySQL, Docker. »
   </div>
 
-  <h3>Vous êtes plutôt développeur. Ici, on code peu. Ça vous va ?</h3>
+  <h3>Quel a été votre rôle exact ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Oui. Je sais coder, et ce n’est pas ce que je viens chercher en premier. Je viens pour le déploiement : documents, bases, tests, formation. Si à la fin il reste un module ou un algorithme à améliorer, je peux m’y mettre. Ce n’est pas ma condition pour prendre le stage. »
+    « Sur Club Sport, on était plusieurs. J’ai travaillé sur des parties Java et sur la base, et on se synchronisait en sprints. Sur Mon Déménagement, j’étais plus autonome : maintenance, évolutions, échanges avec les utilisateurs. »
   </div>
+
+  <h3>Un truc qui a mal marché. Qu’avez-vous appris ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Quand je pars trop vite sans valider le besoin, je perds du temps. Maintenant je préfère poser deux questions en plus au début, plutôt que de corriger pendant une semaine. »
+  </div>
+
+  <h3>Vous avez déjà formé quelqu’un ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Pas une soixantaine d’ingénieurs, non. Par contre, j’ai déjà expliqué un outil et des changements à des utilisateurs. Je sais m’adapter au niveau de la personne en face. La formation en grand groupe, je la construirais avec mon tuteur. »
+  </div>
+
+  <h3>Parlez-nous de votre formation.</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je suis à l’ESIGELEC, à Rouen, en dernière année d’ingénieur informatique. Avant ça, j’ai fait le cycle préparatoire à Cotonou. J’ai un stage à Promopharma en 2023, plutôt support et autonomie. »
+  </div>
+
+  <h2>7. Soft skills &amp; situations</h2>
+
+  <h3>Vous êtes plutôt autonome ou plutôt équipe ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Les deux. Une fois que le besoin est clair, j’avance. Et dès que je bloque sur un point métier, je vais voir quelqu’un. Je ne reste pas coincé pour faire semblant d’être autonome. »
+  </div>
+
+  <h3>Vous bloquez sur un document. Que faites-vous ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je note exactement ce que je ne comprends pas. Je regarde si c’est déjà expliqué ailleurs. Si non, j’appelle la personne du métier. Je n’invente pas une règle pour avancer plus vite. »
+  </div>
+
+  <h3>Deux interlocuteurs vous disent des choses différentes. Vous faites quoi ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je reformule les deux versions, je montre où ça diverge, et je demande une décision claire. Je ne choisis pas tout seul la règle métier. »
+  </div>
+
+  <h3>Vous avez une deadline et trop de documents. Comment priorisez-vous ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je demande ce qui bloque le plus la suite : ce qui empêche de tester, ou ce qui empêche de former. Je commence par ça. Le reste, je le planifie. »
+  </div>
+
+  <h3>Comment gérez-vous la pression / un retour négatif ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je prends le retour au sérieux, pas personnellement. Je regarde ce qui est factuel, je corrige, et je reviens avec une version claire. »
+  </div>
+
+  <h3>Citez une qualité et un défaut.</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Qualité : je suis rigoureux quand il faut croiser des infos. Défaut : parfois je veux trop bien faire avant de montrer. J’ai appris à partager plus tôt, même si ce n’est pas parfait. »
+  </div>
+
+  <h3>Où vous voyez-vous après le stage ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « D’abord réussir ce stage. L’offre dit que ça peut ouvrir vers des postes de signalisation ou de génie civil côté Réseau. Si le courant passe et qu’il y a une suite, je suis ouvert. Mais je ne viens pas en promettant déjà cinq ans. »
+  </div>
+
+  <h2>8. Lieux, dates, logistique</h2>
 
   <h3>Vous classez les sites comment ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « 1. Normandie, Rouen ou Caen, parce que je suis déjà à l’ESIGELEC à Rouen. 2. Paris. 3. Lille. 4. Strasbourg. Je suis mobile sur les quatre. Je préfère qu’on me dise quel périmètre vous avez en tête, y compris si ce n’est pas une de ces quatre régions. »
+    « 1. Normandie, Rouen ou Caen, parce que je suis déjà à l’ESIGELEC à Rouen. 2. Paris. 3. Lille. 4. Strasbourg. Je suis mobile sur les quatre. Dites-moi aussi si le stage que vous avez en tête n’est pas sur une de ces régions. »
+  </div>
+
+  <h3>Vous acceptez Lille / Strasbourg / Paris ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui, si c’est le meilleur périmètre pour vous. La Normandie reste mon premier choix, mais je ne ferme pas les autres. »
+  </div>
+
+  <h3>La signature indique Sud-Est. Vous saviez ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « J’ai vu la signature. L’offre que j’ai reçue portait sur Normandie, Nord–Pas-de-Calais, Alsace et Île-de-France. Je préfère que vous me disiez clairement le site et le périmètre pour mon stage. »
   </div>
 
   <h3>Vous démarrez quand ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Six mois, début entre janvier et avril 2027, avec une convention ESIGELEC. Février est le plus simple pour l’école. Janvier ou mars, je peux le recaler si vous avez une date. »
+    « Six mois, entre janvier et avril 2027, avec une convention ESIGELEC. Février est le plus simple pour l’école. Janvier ou mars, on peut le recaler si vous avez une date. »
   </div>
 
-  <h3>Vous bloquez sur un document que vous ne comprenez pas. Vous faites quoi ?</h3>
+  <h3>Télétravail ? Présentiel ?</h3>
   <div class="say">
     <strong>Tu dis :</strong>
-    « Je note précisément ce que je ne comprends pas, je cherche dans les documents déjà lus, et si ce n’est pas dedans j’appelle la personne du métier. Je n’invente pas une règle de signalisation pour avancer plus vite. »
+    « Je m’adapte à votre organisation. Pour ce stage, je pense qu’être sur place aide, surtout pour rencontrer les équipes et former. »
   </div>
 
-  <h2>4. Deux questions à poser, à la fin</h2>
-  <p>Pas plus de deux. Tu les poses à tout le monde, pas à une seule personne.</p>
-  <ol>
-    <li>« Chacun de vous couvre quelle région, et le stage que vous envisagez pour moi est sur quel site ? »</li>
-    <li>« Les deux premiers mois, c’est surtout la lecture des documents et la vérification des bases, ou la formation démarre tout de suite ? »</li>
-  </ol>
-  <p>S’il reste une minute : « Après cet échange, la suite pour vous, c’est quoi ? »</p>
+  <h3>Vous avez le permis / un logement ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Selon le site, je m’organise. Si c’est Rouen, je suis déjà là. Sur un autre site, je regarde le logement dès que la date est claire. »
+  </div>
 
-  <h2>5. Juste avant Teams</h2>
+  <h3>Gratification / contrat ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « L’offre indiquait une fourchette pour six mois. Pour moi, le plus important, c’est le contenu du stage et le site. Le reste, on le voit avec les RH et l’école. »
+  </div>
+
+  <h2>9. Technique (si ça arrive — ça reste secondaire)</h2>
+
+  <h3>Vous codez en quoi ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Surtout JavaScript, TypeScript, un peu de Python et de Java. Mais je sais que ce stage n’est pas un stage de développement pur. Le code, c’est un plus si vous avez un module à améliorer. »
+  </div>
+
+  <h3>Vous connaissez l’IA / les algorithmes du logiciel ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Non, pas les vôtres. L’offre dit qu’on peut éventuellement améliorer des algorithmes selon l’intérêt. Moi, je veux d’abord bien faire le déploiement et la formation. Après, si le sujet se présente, je m’y mets. »
+  </div>
+
+  <h3>Vous avez déjà fait de la data / de la qualité de données ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui, dans le sens : croiser des infos, vérifier qu’elles collent, les ranger pour qu’elles soient utilisables. Pas sur de la signalisation. Sur des projets scolaires et perso. »
+  </div>
+
+  <h2>10. Questions pièges / gênantes</h2>
+
+  <h3>Pourquoi vous plutôt qu’un profil génie civil ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « L’offre dit que les filières numériques peuvent candidater, et que les génie civil aussi s’ils aiment l’informatique. Moi, j’apporte l’informatique et la capacité à expliquer un outil. Le métier ferroviaire, je l’apprends avec vous. Vous formez déjà là-dessus. »
+  </div>
+
+  <h3>Vous avez l’air jeune / peu d’expérience pro.</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « C’est un stage de fin d’études. J’ai des projets concrets, un outil déjà utilisé, et l’habitude de travailler avec des gens qui n’ont pas mon métier. Le reste, je le construis sur le poste. »
+  </div>
+
+  <h3>Votre anglais ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je lis et j’écris l’anglais technique sans problème. À l’oral je me débrouille. Si l’équipe travaille surtout en français, ça me va. »
+  </div>
+
+  <h3>Vous êtes prêt à vous engager / à rester après ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Si le stage se passe bien et qu’il y a une possibilité, je suis ouvert. Je ne promets pas une embauche avant d’avoir travaillé avec vous. »
+  </div>
+
+  <h3>Avez-vous des questions pour nous ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Oui. » Puis tu en poses deux, pas cinq.
+  </div>
+
+  <h2>11. Tes questions (choisis-en 2)</h2>
+  <ol>
+    <li>« Chacun de vous couvre quelle région, et le stage que vous envisagez pour moi serait sur quel site ? »</li>
+    <li>« Les deux premiers mois, c’est surtout la lecture des documents et la vérification des bases, ou la formation démarre assez vite ? »</li>
+    <li>« À quoi ressemble une semaine type une fois que la base d’une zone est en cours ? »</li>
+    <li>« Qui serait mon tuteur au quotidien, et comment on se synchronise avec les équipes métier ? »</li>
+    <li>« Après cet échange, quelle est la suite du processus de votre côté ? »</li>
+  </ol>
+
+  <h2>12. Juste avant Teams</h2>
   <ul>
-    <li>Endroit calme, CV ouvert, caméra à hauteur des yeux, tu regardes la caméra quand tu parles.</li>
-    <li>Tu notes les quatre prénoms au début. Tu réponds à celui qui a posé la question.</li>
-    <li>Tu ne récites pas la signalisation. Tu n’as pas à connaître les termes techniques mardi.</li>
-    <li>Tu ne dis pas que tu veux « améliorer les algorithmes » comme mission principale.</li>
-    <li>Tu ne changes pas l’ordre des sites par rapport au mail, sauf s’ils te proposent un site précis et que tu l’acceptes.</li>
-    <li>À la fin : « Merci pour l’échange. Je suis disponible pour la suite. »</li>
+    <li>Endroit calme, CV ouvert, caméra à hauteur des yeux.</li>
+    <li>Tu notes les quatre prénoms au début.</li>
+    <li>Tu ne récites pas la signalisation. Tu n’as pas à connaître les termes mardi.</li>
+    <li>Tu ne transformes pas le stage en job de développeur.</li>
+    <li>Tu gardes l’ordre des sites du mail, sauf s’ils te proposent un site précis.</li>
+    <li>À la fin : « Merci pour l’échange. Je reste disponible pour la suite. »</li>
   </ul>
 
   <p class="footer">Fiche perso · SNCF Réseau · entretien 1 h · 4 personnes · Wadjoud PHILIPPE</p>
