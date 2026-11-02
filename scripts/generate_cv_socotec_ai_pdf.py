@@ -268,7 +268,7 @@ def main():
     )
     pdf.labeled(
         "Langues",
-        "Français : courant  ·  Anglais : courant à l'écrit (B2)",
+        "Français : courant  ·  Anglais : B2 écrit · oral opérationnel (pas bilingue)",
     )
     pdf.labeled(
         "Portfolio",
