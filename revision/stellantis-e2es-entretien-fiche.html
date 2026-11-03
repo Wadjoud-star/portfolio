@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entretien Stellantis E2ES — Wadjoud</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --accent: #1d4ed8;
+      --box: #f6f6f4;
+      --ok: #166534;
+      --warn: #9a3412;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 820px;
+      padding: 1.25rem 1rem 3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      line-height: 1.55;
+      background: #fff;
+    }
+    h1 { font-size: 1.4rem; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.12rem;
+      margin: 1.75rem 0 .55rem;
+      padding-bottom: .25rem;
+      border-bottom: 2px solid var(--accent);
+      color: var(--accent);
+    }
+    h3 { font-size: 1rem; margin: 1.25rem 0 .35rem; color: var(--ink); }
+    p, li { color: var(--muted); }
+    .sub { color: var(--muted); margin: 0 0 1rem; font-size: .95rem; }
+    .meta {
+      background: var(--box);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: .85rem 1rem;
+      margin: 0 0 1.25rem;
+      font-size: .92rem;
+    }
+    .pitch, .box, .say, .offer {
+      background: var(--box);
+      border-left: 4px solid var(--accent);
+      padding: .85rem 1rem;
+      margin: .45rem 0 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .offer { border-left-color: #64748b; font-size: .92rem; }
+    .pitch { font-style: italic; }
+    .say strong {
+      color: var(--ok);
+      font-style: normal;
+      display: block;
+      margin-bottom: .35rem;
+    }
+    .warn {
+      color: var(--warn);
+      font-size: .9rem;
+      margin: .25rem 0 .75rem;
+    }
+    ul, ol { padding-left: 1.2rem; }
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .85rem;
+      color: #777;
+    }
+    a { color: var(--accent); }
+    @media print {
+      body { max-width: none; padding: .5rem; }
+      h2, h3 { page-break-after: avoid; }
+      .pitch, .box, .say, .offer { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Entretien Stellantis — E2ES / Knowledge &amp; Decision Assistant</h1>
+  <p class="sub">45 min · Microsoft Teams · Ludmila LEBORGNE · à relire à voix haute une fois</p>
+
+  <div class="meta">
+    <strong>Contact :</strong> Ludmila LEBORGNE · E2ES Operations Manager · ludmila.leborgne@stellantis.com<br />
+    <strong>Service :</strong> PDT / VEHE / FVSS / E2ES<br />
+    <strong>Intitulé :</strong> AI for System Architecture Engineer – Knowledge &amp; Decision Assistant<br />
+    <strong>Format :</strong> 45 min Teams — parcours, motivations, sujet, équipe, contexte<br />
+    <strong>Créneaux proposés :</strong> mardi 17 novembre — 9h00 · 13h00 · 17h00<br />
+    <strong>Stage :</strong> 6 mois · dès février 2027 (à confirmer avec elle)<br />
+    <strong>CV :</strong> <a href="https://wadjoud-star.github.io/portfolio/assets/cv-stellantis-e2es.pdf">cv-stellantis-e2es.pdf</a><br />
+    <strong>Portfolio :</strong> <a href="https://wadjoud-star.github.io/portfolio/">wadjoud-star.github.io/portfolio</a>
+  </div>
+
+  <div class="box">
+    Ce n’est pas un oral technique pur. Ludmila veut voir si tu comprends le sujet, si tu es honnête sur ce que tu ne sais pas encore, et si tu sauras travailler avec des architectes (écouter, formaliser, prototyper, évaluer). Tu vouvoies. Tu parles comme toi, pas comme un CV.
+  </div>
+
+  <!-- ========== OFFRE ========== -->
+  <h2>1. Offre au complet</h2>
+  <div class="offer">
+    <p><strong>À propos de l’offre</strong><br />
+    Vous intégrerez l'équipe E2ES (End-to-End System Architecture) de Stellantis, en charge de l'évaluation des nouvelles fonctionnalités véhicule et de la cohérence de l'architecture système.</p>
+    <p>Dans un contexte de croissance des activités Software Defined Vehicle (SDV), les architectes réalisent des analyses d'impact et des revues d'architecture permettant de préparer les décisions techniques sur les futurs véhicules et services de mobilité.</p>
+    <p>L'objectif du stage est d'explorer l'utilisation des technologies d'IA générative et des agents conversationnels afin de capitaliser les méthodes et réflexes des architectes expérimentés et d'assister les équipes dans la réalisation de leurs analyses d'architecture.</p>
+
+    <p><strong>Objectif du stage</strong></p>
+    <ul>
+      <li>Formaliser les méthodes d'analyse utilisées par les architectes E2ES.</li>
+      <li>Structurer une base de connaissances d'architecture exploitable par une IA.</li>
+      <li>Développer un prototype d'agent capable d'assister la réalisation de revues d'architecture.</li>
+      <li>Évaluer l'apport des technologies d'IA pour la montée en compétence et la cohérence des analyses.</li>
+    </ul>
+
+    <p><strong>Missions principales</strong></p>
+    <p><em>Analyse et capitalisation des connaissances</em></p>
+    <ul>
+      <li>Étude des processus et livrables d'architecture.</li>
+      <li>Identification des critères d'analyse et de décision.</li>
+      <li>Formalisation des bonnes pratiques.</li>
+    </ul>
+    <p><em>Construction de la base de connaissances</em></p>
+    <ul>
+      <li>Structuration de référentiels techniques.</li>
+      <li>Organisation d'exemples et cas de référence.</li>
+      <li>Création de règles et check-lists d'architecture.</li>
+    </ul>
+    <p><em>Développement du prototype IA</em></p>
+    <ul>
+      <li>Conception d'un agent conversationnel.</li>
+      <li>Expérimentation de solutions Copilot / IA générative.</li>
+      <li>Validation sur des cas d'usage réels.</li>
+    </ul>
+    <p><em>Synthèse et recommandations</em></p>
+    <ul>
+      <li>Évaluation des résultats.</li>
+      <li>Proposition d'une feuille de route d'industrialisation.</li>
+    </ul>
+
+    <p><strong>Profil</strong> — BAC+5, école d'ingénieurs ou Master. Spécialités souhaitées : Architecture Système, MBSE, Software Engineering, Intelligence Artificielle, Data &amp; Knowledge Engineering.</p>
+    <p><strong>Compétences requises</strong> — intérêt ingénierie système / architecture ; connaissance IA générative ; analyse &amp; synthèse ; aisance rédactionnelle ; curiosité &amp; autonomie. <em>Plus :</em> Copilot Studio, SharePoint.</p>
+    <p><strong>Durée</strong> — 6 mois.</p>
+  </div>
+
+  <!-- ========== ENTREPRISE ========== -->
+  <h2>2. Stellantis — ce qu’il faut savoir</h2>
+  <ul>
+    <li><strong>Qui :</strong> groupe automobile né en 2021 (PSA + FCA). Marques : Peugeot, Citroën, Opel, Fiat, Jeep, Alfa Romeo, DS, etc.</li>
+    <li><strong>Enjeu actuel :</strong> bascule vers le <strong>Software Defined Vehicle (SDV)</strong> — le véhicule devient une plateforme logicielle évolutive (mises à jour OTA, fonctions ajoutées après la vente), pas seulement une mécanique figée.</li>
+    <li><strong>STLA Brain :</strong> plateforme électronique / logicielle unifiée que Stellantis pousse pour simplifier l’architecture (moins de systèmes fragmentés, plus d’échelle).</li>
+    <li><strong>Pourquoi ça compte pour ce stage :</strong> plus de logiciels et de fonctions = plus de décisions d’architecture, plus d’analyses d’impact, plus de risque d’incohérence. Les architectes E2ES sont au cœur de ça.</li>
+    <li><strong>Ce que tu n’as pas besoin de réciter :</strong> les chiffres investisseurs. Juste montrer que tu as compris : SDV → complexité → besoin de capitaliser le savoir des architectes avec de l’IA.</li>
+  </ul>
+
+  <!-- ========== POSTE ========== -->
+  <h2>3. Le poste — en détail</h2>
+  <h3>Que fait l’équipe E2ES ?</h3>
+  <p>
+    <strong>E2ES = End-to-End System Architecture.</strong> Ils regardent une fonctionnalité véhicule de bout en bout (pas juste un boîtier ou un soft isolé) : est-ce cohérent avec le reste de l’architecture ? Quels impacts si on ajoute / change quelque chose ? Ils préparent les décisions techniques pour les futurs véhicules et services de mobilité.
+  </p>
+  <p>
+    Autre stage E2ES public (ADAS → L3) montre le même esprit : cartographier fonctions / interfaces / flux, identifier écarts, comparer des concepts, synthétiser pour décider. Ton stage, c’est la version « outil IA » de ce métier : aider ces gens à aller plus vite et plus juste, sans remplacer leur jugement.
+  </p>
+
+  <h3>Les 4 blocs du stage (ordre logique)</h3>
+  <ol>
+    <li><strong>Comprendre &amp; formaliser</strong> — interviews / observation des architectes : comment ils analysent, quels critères, quels livrables, quelles erreurs fréquentes.</li>
+    <li><strong>Ranger la connaissance</strong> — référentiels, exemples, check-lists, règles. Une IA ne sert à rien si la base est un fouillis de PDF.</li>
+    <li><strong>Prototyper l’agent</strong> — agent conversationnel (Copilot / genAI) qui aide une revue d’architecture sur des cas réels.</li>
+    <li><strong>Mesurer &amp; proposer</strong> — qu’est-ce qui aide vraiment ? Qu’est-ce qui hallucine ? Feuille de route pour industrialiser (ou pas).</li>
+  </ol>
+
+  <h3>Ce que le stage n’est PAS</h3>
+  <ul>
+    <li>Pas « entraîner un modèle from scratch ».</li>
+    <li>Pas purement coder une app web sans métier.</li>
+    <li>Pas remplacer les architectes : <em>assister</em> leurs analyses et capitaliser leurs réflexes.</li>
+  </ul>
+
+  <h3>Tes forces / tes trous (honnête)</h3>
+  <ul>
+    <li><span class="ok">OK</span> — IA générative au quotidien ; API LLM branchée (Smart CMS) ; structurer de l’info (Factis) ; analyse / synthèse / rédaction ; TypeScript / Python ; autonomie.</li>
+    <li><span class="warn">À dire franchement</span> — architecture véhicule / MBSE : pas encore pratiqué. Copilot Studio et SharePoint : pas utilisés. Tu montes vite, et le cœur du stage commence par écouter les architectes.</li>
+  </ul>
+
+  <!-- ========== PITCH ========== -->
+  <h2>4. Pitch (60–90 secondes)</h2>
+  <div class="pitch">
+    « Je m’appelle Wadjoud Philippe, je suis en dernière année d’informatique à l’ESIGELEC, à Rouen.
+    Je cherche un stage de fin d’études de 6 mois à partir de février 2027.
+    Votre sujet m’a parlé parce qu’il ne commence pas par “faire un chatbot”.
+    Il commence par les méthodes des architectes E2ES : les formaliser, les ranger dans une base
+    exploitable, puis prototyper un agent qui aide vraiment une revue d’architecture,
+    et évaluer ce que ça apporte.
+    J’utilise déjà l’IA générative, et j’ai branché une API de LLM sur un produit.
+    L’architecture véhicule et le MBSE, je ne les pratique pas encore — Copilot Studio
+    et SharePoint non plus. Ce que je sais faire : écouter un métier, synthétiser,
+    écrire proprement, et construire un prototype qu’on peut tester sur des cas réels. »
+  </div>
+
+  <!-- ========== Q&A ========== -->
+  <h2>5. Questions probables — réponses à dire</h2>
+
+  <h3>Présentez-vous / parlez-moi de votre parcours</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je suis passé par le cycle préparatoire de l’ESIGELEC à Cotonou, puis Rouen pour le cycle ingénieur, informatique. J’ai un stage chez PROMOPHARMA en 2023 : autonomie, échanges avec des gens non techniques. Sur mes projets, j’aime les sujets où il faut ranger de l’information et la rendre utilisable — Factis, Smart CMS avec une API d’IA, Mon Déménagement avec des utilisateurs réels. Je cherche un stage où l’outil sert un métier précis, pas juste une démo. »
+  </div>
+
+  <h3>Pourquoi Stellantis ? Pourquoi E2ES ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Parce que Stellantis est en train de faire évoluer la voiture vers du Software Defined Vehicle. Plus de fonctions logicielles, plus d’architectures à tenir cohérentes. E2ES est exactement à cet endroit : analyses d’impact, revues, décisions. Et votre stage ajoute quelque chose de concret : capitaliser le savoir des architectes avec de l’IA générative. Ce n’est pas “de l’IA pour de l’IA”, c’est un outil pour un métier exigeant. »
+  </div>
+
+  <h3>Qu’avez-vous compris de la mission ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Quatre temps. D’abord formaliser comment les architectes E2ES analysent aujourd’hui — critères, livrables, bonnes pratiques. Ensuite structurer une base de connaissances : référentiels, exemples, check-lists. Puis prototyper un agent conversationnel, probablement autour de Copilot / genAI, et le valider sur des cas réels. Enfin évaluer ce que ça apporte vraiment, et proposer une feuille de route d’industrialisation. Le fil rouge, c’est assister les revues d’architecture, pas remplacer le jugement de l’architecte. »
+  </div>
+
+  <h3>Pourquoi l’IA générative vous intéresse ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Parce que sur des sujets complexes, l’IA est utile si on lui donne un cadre : des sources fiables, des règles, des exemples. Sans ça, elle invente. Ce qui m’intéresse, c’est justement la partie “cadre” — formaliser, ranger, puis brancher un agent. Sur Smart CMS, j’ai déjà branché une API de LLM pour produire et structurer du contenu. Là, l’enjeu est plus fort : aider des décisions d’architecture véhicule. »
+  </div>
+
+  <h3>Connaissez-vous Copilot Studio / SharePoint / MBSE ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Copilot Studio et SharePoint, je ne les ai pas utilisés. MBSE non plus en pratique. Je connais l’idée : modéliser le système pour raisonner dessus, pas seulement écrire du code. Pour le stage, je vois que c’est un plus, pas le prérequis. Je peux monter vite sur les outils Microsoft que vous utilisez, et le cœur du travail au début, c’est surtout écouter les architectes et formaliser. »
+  </div>
+  <p class="warn">Ne bluffe pas. Ludmila a écrit “seraient un plus” — l’honnêteté joue pour toi.</p>
+
+  <h3>C’est quoi pour vous un “bon” agent d’aide à la décision ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Un agent qui cite ses sources, qui suit une check-list claire, qui dit “je ne sais pas” plutôt que d’inventer, et qui laisse la décision à l’humain. Sur une revue d’architecture, je préfère un outil qui pose les bonnes questions et rappelle les critères, plutôt qu’un outil qui “décide” tout seul. »
+  </div>
+
+  <h3>Comment vous vous y prendriez les premières semaines ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Semaine 1–2 : comprendre l’équipe, les livrables, assister à une revue si possible, noter le vocabulaire et les critères. Puis proposer une première structure de base de connaissances — même simple — et la faire valider par mon tuteur. Ensuite seulement, choisir la techno du prototype et tester sur un cas réel petit. Je préfère un petit cas bien évalué qu’un gros agent flou. »
+  </div>
+
+  <h3>Parlez-moi d’un projet où vous avez structuré de la connaissance / de l’info</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Factis : il fallait un modèle clair, des données utilisables, quelque chose qu’on peut faire évoluer. Smart CMS : brancher une API d’IA pour produire et structurer du contenu, pas juste générer du texte au hasard. Sur Mon Déménagement, j’ai aussi beaucoup documenté et ajusté avec les retours utilisateurs — ça m’a appris qu’un outil ne sert que s’il colle au métier. »
+  </div>
+
+  <h3>Comment gérez-vous l’autonomie ? Et le travail avec des experts ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Je avance seul sur ce que je peux cadrer, et je reviens avec des questions précises plutôt qu’un “je suis perdu”. Avec des experts, j’écoute d’abord, je reformule, je fais valider une synthèse écrite. Sur ce stage, les architectes sont la source : sans eux, la base de connaissances est fausse. »
+  </div>
+
+  <h3>Anglais ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « À l’écrit je suis à l’aise — docs, mails, docs techniques, B2. À l’oral je me débrouille, surtout en contexte pro. Le titre du stage est en anglais : je peux travailler avec des supports EN. »
+  </div>
+
+  <h3>Disponibilité / mobilité / concurrence</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Dispo 6 mois dès février 2027, convention école. Sur le lieu exact E2ES, je m’adapte — je confirme avec vous. J’ai d’autres candidatures en cours, c’est normal à cette période, mais ce sujet m’intéresse vraiment parce qu’il mélange métier architecture et IA utile. »
+  </div>
+
+  <h3>Points faibles / ce que vous ne savez pas encore</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « L’architecture système véhicule et le MBSE, je ne les ai pas pratiqués. Les outils Microsoft du périmètre non plus. Mon point d’entrée, c’est l’IA générative, la structuration, l’analyse et la rédaction. Le reste, je l’apprends avec l’équipe, sur vos cas. »
+  </div>
+
+  <h3>Où vous voyez-vous après le stage ?</h3>
+  <div class="say">
+    <strong>Tu dis :</strong>
+    « Ingénieur qui fait le lien entre un métier exigeant et des outils logiciels / IA. Idéalement continuer dans un environnement où l’architecture et le produit comptent — automobile ou systèmes complexes. Si le stage se passe bien et qu’il y a une suite, je suis ouvert. »
+  </div>
+
+  <!-- ========== QUESTIONS À POSER ========== -->
+  <h2>6. Questions que tu peux poser (choisis-en 3–4)</h2>
+  <ol>
+    <li>« Sur quoi repose aujourd’hui la connaissance des architectes E2ES — SharePoint, docs Word, modèles, tête des experts ? »</li>
+    <li>« À quoi ressemble une revue d’architecture “typique” : durée, livrables, qui décide ? »</li>
+    <li>« Sur le prototype : visez-vous plutôt Copilot Studio / Microsoft 365, ou un agent plus custom (API LLM) ? »</li>
+    <li>« Comment mesurerez-vous que l’outil aide vraiment — temps gagné, cohérence des analyses, retour des architectes ? »</li>
+    <li>« Y a-t-il déjà des essais IA dans l’équipe, ou je pars quasi de zéro ? »</li>
+    <li>« Qui serait mon tuteur au quotidien, et à quelle fréquence on ferait des points ? »</li>
+    <li>« Le stage est-il sur quel site / en hybride, et à partir de quelle date idéale pour vous ? »</li>
+    <li>« À la fin des 6 mois, qu’est-ce qui ferait pour vous un stage réussi ? »</li>
+  </ol>
+
+  <!-- ========== PIÈGES ========== -->
+  <h2>7. Pièges à éviter</h2>
+  <ul>
+    <li>Ne pas vendre un « LLM qui remplace l’architecte ».</li>
+    <li>Ne pas inventer MBSE / Copilot Studio / SharePoint.</li>
+    <li>Ne pas parler seulement code : le stage commence par capitalisation métier.</li>
+    <li>Ne pas confondre avec Stellantis Motorsport / Formule E (autre candidature).</li>
+    <li>Ne pas réciter STLA Brain comme un communiqué : une phrase suffit.</li>
+  </ul>
+
+  <!-- ========== MINI GLOSSAIRE ========== -->
+  <h2>8. Mini glossaire (si elle utilise un mot)</h2>
+  <ul>
+    <li><strong>E2ES</strong> — End-to-End System Architecture : cohérence d’une fonction sur tout le véhicule.</li>
+    <li><strong>SDV</strong> — Software Defined Vehicle : fonctions et expériences pilotées par le logiciel.</li>
+    <li><strong>Revue d’architecture</strong> — examen structuré d’une proposition (impacts, risques, critères) avant décision.</li>
+    <li><strong>Analyse d’impact</strong> — « si on change X, qu’est-ce qui casse / bouge ailleurs ? »</li>
+    <li><strong>MBSE</strong> — Model-Based Systems Engineering : ingénierie système basée sur des modèles.</li>
+    <li><strong>Base de connaissances</strong> — référentiels + exemples + règles exploitables (par humains et par IA).</li>
+    <li><strong>Agent conversationnel</strong> — assistant qui dialogue, s’appuie sur la base, guide une analyse.</li>
+    <li><strong>Industrialisation</strong> — passer du prototype “qui marche sur 2 cas” à quelque chose d’utilisable en équipe.</li>
+  </ul>
+
+  <div class="footer">
+    Fiche entretien Stellantis E2ES — Wadjoud PHILIPPE · 45 min Teams avec Ludmila LEBORGNE ·
+    CV : <a href="https://wadjoud-star.github.io/portfolio/assets/cv-stellantis-e2es.pdf">cv-stellantis-e2es.pdf</a>
+  </div>
+</body>
+</html>
